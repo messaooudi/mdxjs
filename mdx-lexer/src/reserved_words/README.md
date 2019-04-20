@@ -1,0 +1,1 @@
+see : https://docs.microsoft.com/en-us/sql/mdx/mdx-reserved-words?view=sql-server-2017
