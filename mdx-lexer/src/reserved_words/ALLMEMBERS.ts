@@ -3,7 +3,7 @@ import { ITokenConfig } from "chevrotain"
 const ALLMEMBERS: ITokenConfig = {
     label: "ALLMEMBERS key word",
     name: "all members",
-    pattern: "/ALLMEMBERS/"
+    pattern: /ALLMEMBERS/
 };
 
 export default ALLMEMBERS;

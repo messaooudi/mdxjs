@@ -3,7 +3,7 @@ import { ITokenConfig } from "chevrotain"
 const CACHE: ITokenConfig = {
     label: "CACHE key word",
     name: "cache",
-    pattern: "/CACHE/"
+    pattern: /CACHE/
 };
 
 export default CACHE;

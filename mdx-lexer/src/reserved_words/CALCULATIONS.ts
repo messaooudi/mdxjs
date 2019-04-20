@@ -3,7 +3,7 @@ import { ITokenConfig } from "chevrotain"
 const CALCULATIONS: ITokenConfig = {
     label: "CALCULATIONS key word",
     name: "calculations",
-    pattern: "/CALCULATIONS/"
+    pattern: /CALCULATIONS/
 };
 
 export default CALCULATIONS;
