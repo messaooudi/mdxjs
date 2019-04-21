@@ -1,0 +1,9 @@
+import { ITokenConfig } from "chevrotain"
+
+const PARENT: ITokenConfig = {
+    label: "PARENT key word",
+    name: "parent",
+    pattern: /PARENT/
+};
+
+export default PARENT;
