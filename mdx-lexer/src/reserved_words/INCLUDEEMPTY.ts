@@ -3,7 +3,7 @@ import { ITokenConfig } from "chevrotain"
 const INCLUDEEMPTY: ITokenConfig = {
     label: "INCLUDEEMPTY key word",
     name: "include empty",
-    pattern: "/INCLUDEEMPTY/"
+    pattern: /INCLUDEEMPTY/
 };
 
 export default INCLUDEEMPTY;

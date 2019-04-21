@@ -3,7 +3,7 @@ import { ITokenConfig } from "chevrotain"
 const DESC: ITokenConfig = {
     label: "DESC key word",
     name: "desc",
-    pattern: "/DESC/"
+    pattern: /DESC/
 };
 
 export default DESC;

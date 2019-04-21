@@ -3,7 +3,7 @@ import { ITokenConfig } from "chevrotain"
 const DROP: ITokenConfig = {
     label: "DROP key word",
     name: "drop",
-    pattern: "/DROP/"
+    pattern: /DROP/
 };
 
 export default DROP;

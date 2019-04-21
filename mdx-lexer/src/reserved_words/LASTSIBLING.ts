@@ -3,7 +3,7 @@ import { ITokenConfig } from "chevrotain"
 const LASTSIBLING: ITokenConfig = {
     label: "LASTSIBLING key word",
     name: "last sibling",
-    pattern: "/LASTSIBLING/"
+    pattern: /LASTSIBLING/
 };
 
 export default LASTSIBLING;

@@ -3,7 +3,7 @@ import { ITokenConfig } from "chevrotain"
 const FIRSTSIBLING: ITokenConfig = {
     label: "FIRSTSIBLING key word",
     name: "first sibling",
-    pattern: "/FIRSTSIBLING/"
+    pattern: /FIRSTSIBLING/
 };
 
 export default FIRSTSIBLING;

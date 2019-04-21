@@ -3,7 +3,7 @@ import { ITokenConfig } from "chevrotain"
 const DISTINCT: ITokenConfig = {
     label: "DISTINCT key word",
     name: "distinct",
-    pattern: "/DISTINCT/"
+    pattern: /DISTINCT/
 };
 
 export default DISTINCT;

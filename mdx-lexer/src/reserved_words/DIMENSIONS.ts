@@ -3,7 +3,7 @@ import { ITokenConfig } from "chevrotain"
 const DIMENSIONS: ITokenConfig = {
     label: "DIMENSIONS key word",
     name: "dimensions",
-    pattern: "/DIMENSIONS/"
+    pattern: /DIMENSIONS/
 };
 
 export default DIMENSIONS;
