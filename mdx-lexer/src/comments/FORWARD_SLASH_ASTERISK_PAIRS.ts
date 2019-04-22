@@ -2,7 +2,7 @@ import { ITokenConfig,Lexer } from "chevrotain";
 
 const FORWARD_SLASH_ASTERISK_PAIRS: ITokenConfig = {
     label: "FORWARD_SLASH_ASTERISK_PAIRS comment",
-    name: "FORWARD_SLASH_ASTERISK_PAIRS",
+    name: "forward slash asterisk pairs /* */",
     pattern: /\/\*[^\*\/]*\*\//,
     group : Lexer.SKIPPED
 };

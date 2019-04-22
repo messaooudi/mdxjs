@@ -2,7 +2,7 @@ import { ITokenConfig,Lexer } from "chevrotain";
 
 const DOUBLE_FORWARD_SLASHES: ITokenConfig = {
     label: "DOUBLE_FORWARD_SLASHES comment",
-    name: "DOUBLE_FORWARD_SLASHES",
+    name: "double forward slashes //",
     pattern: /\/\/.*/,
     group : Lexer.SKIPPED
 };

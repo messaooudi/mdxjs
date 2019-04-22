@@ -2,7 +2,7 @@ import { ITokenConfig } from "chevrotain"
 
 const DELIMITED_IDENTIFIER: ITokenConfig = {
     label: "DELIMITED_IDENTIFIER identifier",
-    name: "DELIMITED_IDENTIFIER",
+    name: "delimited identifier",
     //FIXME: doesnt support double closing BRACKETS ]]
     pattern: /\[([^\]]{0,100})\]/
 };

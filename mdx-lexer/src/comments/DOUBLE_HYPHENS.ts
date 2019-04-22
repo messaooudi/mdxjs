@@ -2,7 +2,7 @@ import { ITokenConfig,Lexer } from "chevrotain";
 
 const DOUBLE_HYPHENS: ITokenConfig = {
     label: "DOUBLE_HYPHENS comment",
-    name: "DOUBLE_HYPHENS",
+    name: "double hyphens --",
     pattern: /--.*/,
     group : Lexer.SKIPPED
 };
