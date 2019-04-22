@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig,createToken } from "chevrotain";
 
 const ADD: ITokenConfig = {
     label: "ADD arethmetic operator",
@@ -6,4 +6,4 @@ const ADD: ITokenConfig = {
     pattern: /\+/
 };
 
-export default ADD;
+export default createToken(ADD);

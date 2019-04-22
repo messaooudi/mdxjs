@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig,createToken } from "chevrotain"
 
 const OR: ITokenConfig = {
     label: "OR bitwise operator",
@@ -6,4 +6,4 @@ const OR: ITokenConfig = {
     pattern: /OR/
 };
 
-export default OR;
+export default createToken(OR);

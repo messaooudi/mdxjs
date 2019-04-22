@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig, createToken } from "chevrotain"
 
 const LESS_THAN_OR_EQUAL: ITokenConfig = {
     label: "LESS_THAN_OR_EQUAL comparison operator",
@@ -6,4 +6,4 @@ const LESS_THAN_OR_EQUAL: ITokenConfig = {
     pattern: /<=/
 };
 
-export default LESS_THAN_OR_EQUAL;
+export default createToken(LESS_THAN_OR_EQUAL);

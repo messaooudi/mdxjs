@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig, createToken } from "chevrotain"
 
 const EQUAL_TO: ITokenConfig = {
     label: "EQUAL_TO comparison operator",
@@ -6,4 +6,4 @@ const EQUAL_TO: ITokenConfig = {
     pattern: /=/
 };
 
-export default EQUAL_TO;
+export default createToken(EQUAL_TO);

@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig, createToken } from "chevrotain"
 
 const EXCEPT: ITokenConfig = {
     label: "EXCEPT set operator",
@@ -6,4 +6,4 @@ const EXCEPT: ITokenConfig = {
     pattern: /-/
 };
 
-export default EXCEPT;
+export default createToken(EXCEPT);

@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig,createToken } from "chevrotain"
 
 const AND: ITokenConfig = {
     label: "AND bitwise operator",
@@ -6,4 +6,4 @@ const AND: ITokenConfig = {
     pattern: /AND/
 };
 
-export default AND;
+export default createToken(AND);

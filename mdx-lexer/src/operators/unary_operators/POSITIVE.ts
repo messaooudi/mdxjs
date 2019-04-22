@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig, createToken } from "chevrotain";
 
 const POSITIVE: ITokenConfig = {
     label: "POSITIVE unary operator",
@@ -6,4 +6,4 @@ const POSITIVE: ITokenConfig = {
     pattern: /\+/
 };
 
-export default POSITIVE;
+export default createToken(POSITIVE);

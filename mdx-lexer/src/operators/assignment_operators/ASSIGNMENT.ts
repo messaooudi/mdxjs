@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig,createToken } from "chevrotain"
 
 const ASSIGNEMENT: ITokenConfig = {
     label: "ASSIGNEMENT operator",
@@ -6,4 +6,4 @@ const ASSIGNEMENT: ITokenConfig = {
     pattern: /=/
 };
 
-export default ASSIGNEMENT;
+export default createToken(ASSIGNEMENT);

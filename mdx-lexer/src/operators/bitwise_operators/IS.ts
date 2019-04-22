@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig,createToken } from "chevrotain"
 
 const IS: ITokenConfig = {
     label: "IS bitwise operator",
@@ -6,4 +6,4 @@ const IS: ITokenConfig = {
     pattern: /IS/
 };
 
-export default IS;
+export default createToken(IS);

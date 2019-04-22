@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig, createToken } from "chevrotain";
 
 const CONCATENATION: ITokenConfig = {
     label: "CONCATENATION operator",
     name: "concatenation",
-    pattern: /\+/
+    pattern: /\+/,
 };
 
-export default CONCATENATION;
+export default createToken(CONCATENATION);

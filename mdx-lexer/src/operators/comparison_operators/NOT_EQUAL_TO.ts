@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig,createToken } from "chevrotain"
 
 const NOT_EQUAL_TO: ITokenConfig = {
     label: "NOT_EQUAL_TO comparison operator",
@@ -6,4 +6,4 @@ const NOT_EQUAL_TO: ITokenConfig = {
     pattern: /<>/
 };
 
-export default NOT_EQUAL_TO;
+export default createToken(NOT_EQUAL_TO);

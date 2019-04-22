@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig,createToken } from "chevrotain"
 
 const SUBTRACT: ITokenConfig = {
     label: "SUBTRACT arethmetic operator",
@@ -6,4 +6,4 @@ const SUBTRACT: ITokenConfig = {
     pattern: /-/
 };
 
-export default SUBTRACT;
+export default createToken(SUBTRACT);

@@ -1,9 +1,11 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig } from "chevrotain";
+import ASC from "./ASC";
 
 const AS: ITokenConfig = {
     label: "AS key word",
     name: "as",
-    pattern: /AS/
+    pattern: /AS/,
+    longer_alt : ASC
 };
 
 export default AS;

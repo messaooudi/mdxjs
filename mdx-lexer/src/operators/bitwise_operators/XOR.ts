@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig, createToken } from "chevrotain"
 
 const XOR: ITokenConfig = {
     label: "XOR bitwise operator",
@@ -6,4 +6,4 @@ const XOR: ITokenConfig = {
     pattern: /XOR/
 };
 
-export default XOR;
+export default createToken(XOR);

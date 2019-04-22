@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig,createToken } from "chevrotain"
 
 const DIVIDE: ITokenConfig = {
     label: "DIVIDE arethmetic operator",
@@ -6,4 +6,4 @@ const DIVIDE: ITokenConfig = {
     pattern: /\//
 };
 
-export default DIVIDE;
+export default createToken(DIVIDE);

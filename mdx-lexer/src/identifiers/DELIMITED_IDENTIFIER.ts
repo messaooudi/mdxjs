@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig,createToken } from "chevrotain"
 
 const DELIMITED_IDENTIFIER: ITokenConfig = {
     label: "DELIMITED_IDENTIFIER identifier",
@@ -7,4 +7,4 @@ const DELIMITED_IDENTIFIER: ITokenConfig = {
     pattern: /\[([^\]]{0,100})\]/
 };
 
-export default DELIMITED_IDENTIFIER;
+export default createToken(DELIMITED_IDENTIFIER);

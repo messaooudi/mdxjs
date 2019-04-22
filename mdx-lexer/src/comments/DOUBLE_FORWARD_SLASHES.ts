@@ -1,10 +1,10 @@
-import { ITokenConfig,Lexer } from "chevrotain";
+import { ITokenConfig, Lexer, createToken } from "chevrotain";
 
 const DOUBLE_FORWARD_SLASHES: ITokenConfig = {
     label: "DOUBLE_FORWARD_SLASHES comment",
     name: "double forward slashes //",
     pattern: /\/\/.*/,
-    group : Lexer.SKIPPED
+    group: Lexer.SKIPPED
 };
 
-export default DOUBLE_FORWARD_SLASHES;
+export default createToken(DOUBLE_FORWARD_SLASHES);

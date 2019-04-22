@@ -1,10 +1,10 @@
-import { ITokenConfig,Lexer } from "chevrotain";
+import { ITokenConfig, Lexer, createToken } from "chevrotain";
 
 const DOUBLE_HYPHENS: ITokenConfig = {
     label: "DOUBLE_HYPHENS comment",
     name: "double hyphens --",
     pattern: /--.*/,
-    group : Lexer.SKIPPED
+    group: Lexer.SKIPPED
 };
 
-export default DOUBLE_HYPHENS;
+export default createToken(DOUBLE_HYPHENS);

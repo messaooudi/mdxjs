@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig,createToken } from "chevrotain"
 
 const POWER: ITokenConfig = {
     label: "POWER arethmetic operator",
@@ -6,4 +6,4 @@ const POWER: ITokenConfig = {
     pattern: /\^/
 };
 
-export default POWER;
+export default createToken(POWER);

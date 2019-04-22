@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig,createToken } from "chevrotain"
 
 const NOT: ITokenConfig = {
     label: "NOT bitwise operator",
-    name: "not//#endregion",
+    name: "not",
     pattern: /NOT/
 };
 
-export default NOT;
+export default createToken(NOT);
