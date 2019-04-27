@@ -1,6 +1,6 @@
 import CALCULATIONCURRENTPASS from "../CALCULATIONCURRENTPASS";
 
 test('CALCULATIONCURRENTPASS reserved word', () => {
-  expect('CALCULATIONCURRENTPASS').toMatch(CALCULATIONCURRENTPASS.pattern as RegExp);
-  expect('something else').not.toMatch(CALCULATIONCURRENTPASS.pattern as RegExp);
+  expect('CALCULATIONCURRENTPASS').toMatch(CALCULATIONCURRENTPASS.PATTERN as RegExp);
+  expect('something else').not.toMatch(CALCULATIONCURRENTPASS.PATTERN as RegExp);
 });

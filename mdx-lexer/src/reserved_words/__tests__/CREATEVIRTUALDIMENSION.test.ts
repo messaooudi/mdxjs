@@ -1,6 +1,6 @@
 import CREATEVIRTUALDIMENSION from "../CREATEVIRTUALDIMENSION";
 
 test('CREATEVIRTUALDIMENSION reserved word', () => {
-  expect('CREATEVIRTUALDIMENSION').toMatch(CREATEVIRTUALDIMENSION.pattern as RegExp);
-  expect('something else').not.toMatch(CREATEVIRTUALDIMENSION.pattern as RegExp);
+  expect('CREATEVIRTUALDIMENSION').toMatch(CREATEVIRTUALDIMENSION.PATTERN as RegExp);
+  expect('something else').not.toMatch(CREATEVIRTUALDIMENSION.PATTERN as RegExp);
 });

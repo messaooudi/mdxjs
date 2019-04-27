@@ -1,6 +1,6 @@
 import ERROR from "../ERROR";
 
 test('ERROR reserved word', () => {
-  expect('ERROR').toMatch(ERROR.pattern as RegExp);
-  expect('something else').not.toMatch(ERROR.pattern as RegExp);
+  expect('ERROR').toMatch(ERROR.PATTERN as RegExp);
+  expect('something else').not.toMatch(ERROR.PATTERN as RegExp);
 });

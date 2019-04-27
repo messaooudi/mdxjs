@@ -1,6 +1,6 @@
 import PREDICT from "../PREDICT";
 
 test('PREDICT reserved word', () => {
-  expect('PREDICT').toMatch(PREDICT.pattern as RegExp);
-  expect('something else').not.toMatch(PREDICT.pattern as RegExp);
+  expect('PREDICT').toMatch(PREDICT.PATTERN as RegExp);
+  expect('something else').not.toMatch(PREDICT.PATTERN as RegExp);
 });

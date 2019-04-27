@@ -1,6 +1,6 @@
 import TRUE from "../TRUE";
 
 test('TRUE reserved word', () => {
-  expect('TRUE').toMatch(TRUE.pattern as RegExp);
-  expect('something else').not.toMatch(TRUE.pattern as RegExp);
+  expect('TRUE').toMatch(TRUE.PATTERN as RegExp);
+  expect('something else').not.toMatch(TRUE.PATTERN as RegExp);
 });
