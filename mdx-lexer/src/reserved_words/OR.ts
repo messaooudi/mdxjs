@@ -6,4 +6,4 @@ const OR: ITokenConfig = {
     pattern: /OR/
 };
 
-export default OR;
+export default createToken(OR);

@@ -6,4 +6,4 @@ const WTD: ITokenConfig = {
     pattern: /WTD/
 };
 
-export default WTD;
+export default createToken(WTD);

@@ -6,4 +6,4 @@ const ISSIBLING: ITokenConfig = {
     pattern: /ISSIBLING/
 };
 
-export default ISSIBLING;
+export default createToken(ISSIBLING);

@@ -6,4 +6,4 @@ const LEAVES: ITokenConfig = {
     pattern: /LEAVES/
 };
 
-export default LEAVES;
+export default createToken(LEAVES);

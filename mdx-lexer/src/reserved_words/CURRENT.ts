@@ -6,4 +6,4 @@ const CURRENT: ITokenConfig = {
     pattern: /CURRENT/
 };
 
-export default CURRENT;
+export default createToken(CURRENT);

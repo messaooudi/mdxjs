@@ -6,4 +6,4 @@ const ANCESTORS: ITokenConfig = {
     pattern: /ANCESTORS/
 };
 
-export default ANCESTORS;
+export default createToken(ANCESTORS);

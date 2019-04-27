@@ -6,4 +6,4 @@ const CORRELATION: ITokenConfig = {
     pattern: /CORRELATION/
 };
 
-export default CORRELATION;
+export default createToken(CORRELATION);

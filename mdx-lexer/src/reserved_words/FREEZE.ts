@@ -6,4 +6,4 @@ const FREEZE: ITokenConfig = {
     pattern: /FREEZE/
 };
 
-export default FREEZE;
+export default createToken(FREEZE);

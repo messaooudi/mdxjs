@@ -6,4 +6,4 @@ const MEASURE: ITokenConfig = {
     pattern: /MEASURE/
 };
 
-export default MEASURE;
+export default createToken(MEASURE);

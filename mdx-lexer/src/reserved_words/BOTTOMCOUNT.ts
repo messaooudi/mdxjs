@@ -6,4 +6,4 @@ const BOTTOMCOUNT: ITokenConfig = {
     pattern: /BOTTOMCOUNT/
 };
 
-export default BOTTOMCOUNT;
+export default createToken(BOTTOMCOUNT);

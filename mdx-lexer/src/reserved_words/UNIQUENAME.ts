@@ -6,4 +6,4 @@ const UNIQUENAME: ITokenConfig = {
     pattern: /UNIQUENAME/
 };
 
-export default UNIQUENAME;
+export default createToken(UNIQUENAME);

@@ -6,4 +6,4 @@ const WHERE: ITokenConfig = {
     pattern: /WHERE/
 };
 
-export default WHERE;
+export default createToken(WHERE);

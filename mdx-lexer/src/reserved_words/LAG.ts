@@ -6,4 +6,4 @@ const LAG: ITokenConfig = {
     pattern: /LAG/
 };
 
-export default LAG;
+export default createToken(LAG);

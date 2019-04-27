@@ -6,4 +6,4 @@ const PASS: ITokenConfig = {
     pattern: /PASS/
 };
 
-export default PASS;
+export default createToken(PASS);

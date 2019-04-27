@@ -6,4 +6,4 @@ const VISUALTOTALS: ITokenConfig = {
     pattern: /VISUALTOTALS/
 };
 
-export default VISUALTOTALS;
+export default createToken(VISUALTOTALS);

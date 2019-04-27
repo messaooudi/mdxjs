@@ -6,4 +6,4 @@ const INTERSECT: ITokenConfig = {
     pattern: /INTERSECT/
 };
 
-export default INTERSECT;
+export default createToken(INTERSECT);

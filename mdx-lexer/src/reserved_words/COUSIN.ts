@@ -6,4 +6,4 @@ const COUSIN: ITokenConfig = {
     pattern: /COUSIN/
 };
 
-export default COUSIN;
+export default createToken(COUSIN);

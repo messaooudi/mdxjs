@@ -6,4 +6,4 @@ const ROOT: ITokenConfig = {
     pattern: /ROOT/
 };
 
-export default ROOT;
+export default createToken(ROOT);

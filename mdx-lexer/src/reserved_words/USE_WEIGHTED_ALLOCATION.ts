@@ -6,4 +6,4 @@ const USE_WEIGHTED_ALLOCATION: ITokenConfig = {
     pattern: /USE_WEIGHTED_ALLOCATION/
 };
 
-export default USE_WEIGHTED_ALLOCATION;
+export default createToken(USE_WEIGHTED_ALLOCATION);

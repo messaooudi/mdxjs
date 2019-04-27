@@ -6,4 +6,4 @@ const STRTOTUPLE: ITokenConfig = {
     pattern: /STRTOTUPLE/
 };
 
-export default STRTOTUPLE;
+export default createToken(STRTOTUPLE);

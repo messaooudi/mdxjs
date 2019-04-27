@@ -6,4 +6,4 @@ const TUPLETOSTR: ITokenConfig = {
     pattern: /TUPLETOSTR/
 };
 
-export default TUPLETOSTR;
+export default createToken(TUPLETOSTR);

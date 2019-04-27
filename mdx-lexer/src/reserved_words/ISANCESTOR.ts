@@ -6,4 +6,4 @@ const ISANCESTOR: ITokenConfig = {
     pattern: /ISANCESTOR/
 };
 
-export default ISANCESTOR;
+export default createToken(ISANCESTOR);

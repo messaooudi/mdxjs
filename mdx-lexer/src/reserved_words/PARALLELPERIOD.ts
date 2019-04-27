@@ -6,4 +6,4 @@ const PARALLELPERIOD: ITokenConfig = {
     pattern: /PARALLELPERIOD/
 };
 
-export default PARALLELPERIOD;
+export default createToken(PARALLELPERIOD);

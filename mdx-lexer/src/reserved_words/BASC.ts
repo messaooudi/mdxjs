@@ -6,4 +6,4 @@ const BASC: ITokenConfig = {
     pattern: /BASC/
 };
 
-export default BASC;
+export default createToken(BASC);

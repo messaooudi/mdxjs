@@ -6,4 +6,4 @@ const LINREGVARIANCE: ITokenConfig = {
     pattern: /LINREGVARIANCE/
 };
 
-export default LINREGVARIANCE;
+export default createToken(LINREGVARIANCE);

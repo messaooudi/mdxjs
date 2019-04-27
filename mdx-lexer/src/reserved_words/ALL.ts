@@ -8,4 +8,4 @@ const ALL: ITokenConfig = {
     longer_alt : ALLMEMBERS
 };
 
-export default ALL;
+export default createToken(ALL);

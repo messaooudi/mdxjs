@@ -6,4 +6,4 @@ const OPENINGPERIOD: ITokenConfig = {
     pattern: /OPENINGPERIOD/
 };
 
-export default OPENINGPERIOD;
+export default createToken(OPENINGPERIOD);

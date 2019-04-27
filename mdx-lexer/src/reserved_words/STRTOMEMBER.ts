@@ -6,4 +6,4 @@ const STRTOMEMBER: ITokenConfig = {
     pattern: /STRTOMEMBER/
 };
 
-export default STRTOMEMBER;
+export default createToken(STRTOMEMBER);

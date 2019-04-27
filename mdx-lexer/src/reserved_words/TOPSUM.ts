@@ -6,4 +6,4 @@ const TOPSUM: ITokenConfig = {
     pattern: /TOPSUM/
 };
 
-export default TOPSUM;
+export default createToken(TOPSUM);

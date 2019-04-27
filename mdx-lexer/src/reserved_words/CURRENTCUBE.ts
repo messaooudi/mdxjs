@@ -6,4 +6,4 @@ const CURRENTCUBE: ITokenConfig = {
     pattern: /CURRENTCUBE/
 };
 
-export default CURRENTCUBE;
+export default createToken(CURRENTCUBE);

@@ -6,4 +6,4 @@ const XOR: ITokenConfig = {
     pattern: /XOR/
 };
 
-export default XOR;
+export default createToken(XOR);

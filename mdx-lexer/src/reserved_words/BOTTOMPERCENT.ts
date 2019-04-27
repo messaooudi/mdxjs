@@ -6,4 +6,4 @@ const BOTTOMPERCENT: ITokenConfig = {
     pattern: /BOTTOMPERCENT/
 };
 
-export default BOTTOMPERCENT;
+export default createToken(BOTTOMPERCENT);

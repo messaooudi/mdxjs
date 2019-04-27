@@ -6,4 +6,4 @@ const CALCULATION: ITokenConfig = {
     pattern: /CALCULATION/
 };
 
-export default CALCULATION;
+export default createToken(CALCULATION);

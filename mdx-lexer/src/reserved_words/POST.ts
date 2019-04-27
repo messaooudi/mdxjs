@@ -6,4 +6,4 @@ const POST: ITokenConfig = {
     pattern: /POST/
 };
 
-export default POST;
+export default createToken(POST);

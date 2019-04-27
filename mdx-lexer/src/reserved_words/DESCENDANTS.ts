@@ -6,4 +6,4 @@ const DESCENDANTS: ITokenConfig = {
     pattern: /DESCENDANTS/
 };
 
-export default DESCENDANTS;
+export default createToken(DESCENDANTS);

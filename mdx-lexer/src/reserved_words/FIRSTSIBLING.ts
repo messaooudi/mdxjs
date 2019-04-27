@@ -6,4 +6,4 @@ const FIRSTSIBLING: ITokenConfig = {
     pattern: /FIRSTSIBLING/
 };
 
-export default FIRSTSIBLING;
+export default createToken(FIRSTSIBLING);

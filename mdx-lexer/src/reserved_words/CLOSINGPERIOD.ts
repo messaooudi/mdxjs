@@ -6,4 +6,4 @@ const CLOSINGPERIOD: ITokenConfig = {
     pattern: /CLOSINGPERIOD/
 };
 
-export default CLOSINGPERIOD;
+export default createToken(CLOSINGPERIOD);

@@ -6,4 +6,4 @@ const CUBE: ITokenConfig = {
     pattern: /CUBE/
 };
 
-export default CUBE;
+export default createToken(CUBE);

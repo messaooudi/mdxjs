@@ -6,4 +6,4 @@ const ON: ITokenConfig = {
     pattern: /ON/
 };
 
-export default ON;
+export default createToken(ON);

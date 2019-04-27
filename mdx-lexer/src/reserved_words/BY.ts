@@ -6,4 +6,4 @@ const BY: ITokenConfig = {
     pattern: /BY/
 };
 
-export default BY;
+export default createToken(BY);

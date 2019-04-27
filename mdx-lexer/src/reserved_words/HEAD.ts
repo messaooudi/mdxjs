@@ -6,4 +6,4 @@ const HEAD: ITokenConfig = {
     pattern: /HEAD/
 };
 
-export default HEAD;
+export default createToken(HEAD);

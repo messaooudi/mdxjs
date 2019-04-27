@@ -6,4 +6,4 @@ const ASCENDANTS: ITokenConfig = {
     pattern: /ASCENDANTS/
 };
 
-export default ASCENDANTS;
+export default createToken(ASCENDANTS);

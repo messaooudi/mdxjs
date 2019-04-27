@@ -6,4 +6,4 @@ const HIERARCHIZE: ITokenConfig = {
     pattern: /HIERARCHIZE/
 };
 
-export default HIERARCHIZE;
+export default createToken(HIERARCHIZE);

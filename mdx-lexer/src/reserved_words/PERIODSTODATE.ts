@@ -6,4 +6,4 @@ const PERIODSTODATE: ITokenConfig = {
     pattern: /PERIODSTODATE/
 };
 
-export default PERIODSTODATE;
+export default createToken(PERIODSTODATE);

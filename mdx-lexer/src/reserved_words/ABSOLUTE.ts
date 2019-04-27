@@ -6,4 +6,4 @@ const ABSOLUTE: ITokenConfig = {
     pattern: /ABSOLUTE/
 };
 
-export default ABSOLUTE;
+export default createToken(ABSOLUTE);

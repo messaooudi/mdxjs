@@ -6,4 +6,4 @@ const ITEM: ITokenConfig = {
     pattern: /ITEM/
 };
 
-export default ITEM;
+export default createToken(ITEM);

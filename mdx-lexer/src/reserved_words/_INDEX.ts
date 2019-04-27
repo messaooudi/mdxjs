@@ -6,4 +6,4 @@ const INDEX: ITokenConfig = {
     pattern: /INDEX/
 };
 
-export default INDEX;
+export default createToken(INDEX);

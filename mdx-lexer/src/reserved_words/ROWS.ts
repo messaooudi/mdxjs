@@ -6,4 +6,4 @@ const ROWS: ITokenConfig = {
     pattern: /ROWS/
 };
 
-export default ROWS;
+export default createToken(ROWS);

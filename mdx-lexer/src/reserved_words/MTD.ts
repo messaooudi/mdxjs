@@ -6,4 +6,4 @@ const MTD: ITokenConfig = {
     pattern: /MTD/
 };
 
-export default MTD;
+export default createToken(MTD);

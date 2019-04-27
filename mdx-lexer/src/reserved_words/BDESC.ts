@@ -6,4 +6,4 @@ const BDESC: ITokenConfig = {
     pattern: /BDESC/
 };
 
-export default BDESC;
+export default createToken(BDESC);

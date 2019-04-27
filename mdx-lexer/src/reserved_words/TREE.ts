@@ -6,4 +6,4 @@ const TREE: ITokenConfig = {
     pattern: /TREE/
 };
 
-export default TREE;
+export default createToken(TREE);

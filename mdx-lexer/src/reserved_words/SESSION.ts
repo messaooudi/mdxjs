@@ -6,4 +6,4 @@ const SESSION: ITokenConfig = {
     pattern: /SESSION/
 };
 
-export default SESSION;
+export default createToken(SESSION);

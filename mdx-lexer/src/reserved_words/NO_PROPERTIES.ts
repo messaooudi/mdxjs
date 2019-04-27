@@ -6,4 +6,4 @@ const NO_PROPERTIES: ITokenConfig = {
     pattern: /NO_PROPERTIES/
 };
 
-export default NO_PROPERTIES;
+export default createToken(NO_PROPERTIES);

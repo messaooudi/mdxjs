@@ -8,4 +8,4 @@ const AS: ITokenConfig = {
     longer_alt : ASC
 };
 
-export default AS;
+export default createToken(AS);

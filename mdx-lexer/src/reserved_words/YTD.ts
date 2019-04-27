@@ -6,4 +6,4 @@ const YTD: ITokenConfig = {
     pattern: /YTD/
 };
 
-export default YTD;
+export default createToken(YTD);

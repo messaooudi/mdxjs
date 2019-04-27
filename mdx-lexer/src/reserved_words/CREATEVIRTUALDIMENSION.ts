@@ -6,4 +6,4 @@ const CREATEVIRTUALDIMENSION: ITokenConfig = {
     pattern: /CREATEVIRTUALDIMENSION/
 };
 
-export default CREATEVIRTUALDIMENSION;
+export default createToken(CREATEVIRTUALDIMENSION);

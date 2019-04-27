@@ -6,4 +6,4 @@ const LINKMEMBER: ITokenConfig = {
     pattern: /LINKMEMBER/
 };
 
-export default LINKMEMBER;
+export default createToken(LINKMEMBER);

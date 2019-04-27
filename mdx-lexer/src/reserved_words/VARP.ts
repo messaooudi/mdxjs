@@ -6,4 +6,4 @@ const VARP: ITokenConfig = {
     pattern: /VARP/
 };
 
-export default VARP;
+export default createToken(VARP);

@@ -6,4 +6,4 @@ const SELF_BEFORE_AFTER: ITokenConfig = {
     pattern: /SELF_BEFORE_AFTER/
 };
 
-export default SELF_BEFORE_AFTER;
+export default createToken(SELF_BEFORE_AFTER);

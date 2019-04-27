@@ -6,4 +6,4 @@ const SETTOSTR: ITokenConfig = {
     pattern: /SETTOSTR/
 };
 
-export default SETTOSTR;
+export default createToken(SETTOSTR);

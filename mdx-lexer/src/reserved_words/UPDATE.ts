@@ -6,4 +6,4 @@ const UPDATE: ITokenConfig = {
     pattern: /UPDATE/
 };
 
-export default UPDATE;
+export default createToken(UPDATE);

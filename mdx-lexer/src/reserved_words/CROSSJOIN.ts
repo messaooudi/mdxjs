@@ -6,4 +6,4 @@ const CROSSJOIN: ITokenConfig = {
     pattern: /CROSSJOIN/
 };
 
-export default CROSSJOIN;
+export default createToken(CROSSJOIN);

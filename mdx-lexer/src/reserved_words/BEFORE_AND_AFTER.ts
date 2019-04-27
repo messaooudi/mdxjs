@@ -6,4 +6,4 @@ const BEFORE_AND_AFTER: ITokenConfig = {
     pattern: /BEFORE_AND_AFTER/
 };
 
-export default BEFORE_AND_AFTER;
+export default createToken(BEFORE_AND_AFTER);

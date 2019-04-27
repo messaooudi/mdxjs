@@ -6,4 +6,4 @@ const FOR: ITokenConfig = {
     pattern: /FOR/
 };
 
-export default FOR;
+export default createToken(FOR);

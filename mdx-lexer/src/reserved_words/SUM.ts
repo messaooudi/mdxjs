@@ -6,4 +6,4 @@ const SUM: ITokenConfig = {
     pattern: /SUM/
 };
 
-export default SUM;
+export default createToken(SUM);

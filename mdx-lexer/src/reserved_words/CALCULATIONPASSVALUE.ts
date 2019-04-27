@@ -6,4 +6,4 @@ const CALCULATIONPASSVALUE: ITokenConfig = {
     pattern: /CALCULATIONPASSVALUE/
 };
 
-export default CALCULATIONPASSVALUE;
+export default createToken(CALCULATIONPASSVALUE);

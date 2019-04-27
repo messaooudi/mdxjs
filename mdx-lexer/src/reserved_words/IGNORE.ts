@@ -6,4 +6,4 @@ const IGNORE: ITokenConfig = {
     pattern: /IGNORE/
 };
 
-export default IGNORE;
+export default createToken(IGNORE);

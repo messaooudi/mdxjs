@@ -6,4 +6,4 @@ const DIMENSION: ITokenConfig = {
     pattern: /DIMENSION/
 };
 
-export default DIMENSION;
+export default createToken(DIMENSION);

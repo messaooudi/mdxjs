@@ -6,4 +6,4 @@ const GLOBAL: ITokenConfig = {
     pattern: /GLOBAL/
 };
 
-export default GLOBAL;
+export default createToken(GLOBAL);

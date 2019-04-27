@@ -6,4 +6,4 @@ const USE_EQUAL_ALLOCATION: ITokenConfig = {
     pattern: /USE_EQUAL_ALLOCATION/
 };
 
-export default USE_EQUAL_ALLOCATION;
+export default createToken(USE_EQUAL_ALLOCATION);

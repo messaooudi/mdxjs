@@ -6,4 +6,4 @@ const CHAPTERS: ITokenConfig = {
     pattern: /CHAPTERS/
 };
 
-export default CHAPTERS;
+export default createToken(CHAPTERS);

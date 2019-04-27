@@ -6,4 +6,4 @@ const CURRENTMEMBER: ITokenConfig = {
     pattern: /CURRENTMEMBER/
 };
 
-export default CURRENTMEMBER;
+export default createToken(CURRENTMEMBER);

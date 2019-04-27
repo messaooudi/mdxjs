@@ -6,4 +6,4 @@ const COUNT: ITokenConfig = {
     pattern: /COUNT/
 };
 
-export default COUNT;
+export default createToken(COUNT);

@@ -6,4 +6,4 @@ const NEXTMEMBER: ITokenConfig = {
     pattern: /NEXTMEMBER/
 };
 
-export default NEXTMEMBER;
+export default createToken(NEXTMEMBER);

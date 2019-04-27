@@ -6,4 +6,4 @@ const CELLFORMULASETLIST: ITokenConfig = {
     pattern: /CELLFORMULASETLIST/
 };
 
-export default CELLFORMULASETLIST;
+export default createToken(CELLFORMULASETLIST);

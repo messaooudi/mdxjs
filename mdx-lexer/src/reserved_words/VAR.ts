@@ -6,4 +6,4 @@ const VAR: ITokenConfig = {
     pattern: /VAR/
 };
 
-export default VAR;
+export default createToken(VAR);

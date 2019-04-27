@@ -6,4 +6,4 @@ const VALIDMEASURE: ITokenConfig = {
     pattern: /VALIDMEASURE/
 };
 
-export default VALIDMEASURE;
+export default createToken(VALIDMEASURE);

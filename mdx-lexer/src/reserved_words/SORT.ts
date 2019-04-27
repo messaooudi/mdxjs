@@ -6,4 +6,4 @@ const SORT: ITokenConfig = {
     pattern: /SORT/
 };
 
-export default SORT;
+export default createToken(SORT);

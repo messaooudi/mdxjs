@@ -6,4 +6,4 @@ const FILTER: ITokenConfig = {
     pattern: /FILTER/
 };
 
-export default FILTER;
+export default createToken(FILTER);

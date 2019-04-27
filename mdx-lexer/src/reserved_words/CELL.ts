@@ -6,4 +6,4 @@ const CELL: ITokenConfig = {
     pattern: /CELL/
 };
 
-export default CELL;
+export default createToken(CELL);

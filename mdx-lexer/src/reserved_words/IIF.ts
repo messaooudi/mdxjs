@@ -6,4 +6,4 @@ const IIF: ITokenConfig = {
     pattern: /IIF/
 };
 
-export default IIF;
+export default createToken(IIF);

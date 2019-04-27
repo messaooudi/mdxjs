@@ -6,4 +6,4 @@ const NEST: ITokenConfig = {
     pattern: /NEST/
 };
 
-export default NEST;
+export default createToken(NEST);

@@ -6,4 +6,4 @@ const HIERARCHY: ITokenConfig = {
     pattern: /HIERARCHY/
 };
 
-export default HIERARCHY;
+export default createToken(HIERARCHY);

@@ -6,4 +6,4 @@ const NON: ITokenConfig = {
     pattern: /NON/
 };
 
-export default NON;
+export default createToken(NON);

@@ -6,4 +6,4 @@ const ASC: ITokenConfig = {
     pattern: /ASC/
 };
 
-export default ASC;
+export default createToken(ASC);

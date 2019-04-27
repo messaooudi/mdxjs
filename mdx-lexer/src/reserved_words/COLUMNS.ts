@@ -6,4 +6,4 @@ const COLUMNS: ITokenConfig = {
     pattern: /COLUMNS/
 };
 
-export default COLUMNS;
+export default createToken(COLUMNS);

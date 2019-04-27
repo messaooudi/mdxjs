@@ -6,4 +6,4 @@ const BEFORE: ITokenConfig = {
     pattern: /BEFORE/
 };
 
-export default BEFORE;
+export default createToken(BEFORE);

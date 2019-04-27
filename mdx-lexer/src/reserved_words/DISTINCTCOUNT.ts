@@ -6,4 +6,4 @@ const DISTINCTCOUNT: ITokenConfig = {
     pattern: /DISTINCTCOUNT/
 };
 
-export default DISTINCTCOUNT;
+export default createToken(DISTINCTCOUNT);

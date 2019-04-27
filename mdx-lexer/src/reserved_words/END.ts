@@ -6,4 +6,4 @@ const END: ITokenConfig = {
     pattern: /END/
 };
 
-export default END;
+export default createToken(END);

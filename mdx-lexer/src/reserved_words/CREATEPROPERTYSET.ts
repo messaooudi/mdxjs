@@ -6,4 +6,4 @@ const CREATEPROPERTYSET: ITokenConfig = {
     pattern: /CREATEPROPERTYSET/
 };
 
-export default CREATEPROPERTYSET;
+export default createToken(CREATEPROPERTYSET);

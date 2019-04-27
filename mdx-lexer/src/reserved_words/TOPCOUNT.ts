@@ -6,4 +6,4 @@ const TOPCOUNT: ITokenConfig = {
     pattern: /TOPCOUNT/
 };
 
-export default TOPCOUNT;
+export default createToken(TOPCOUNT);

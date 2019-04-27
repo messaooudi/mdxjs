@@ -6,4 +6,4 @@ const PREVMEMBER: ITokenConfig = {
     pattern: /PREVMEMBER/
 };
 
-export default PREVMEMBER;
+export default createToken(PREVMEMBER);

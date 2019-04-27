@@ -6,4 +6,4 @@ const VARIANCEP: ITokenConfig = {
     pattern: /VARIANCEP/
 };
 
-export default VARIANCEP;
+export default createToken(VARIANCEP);

@@ -6,4 +6,4 @@ const DRILLDOWNLEVELBOTTOM: ITokenConfig = {
     pattern: /DRILLDOWNLEVELBOTTOM/
 };
 
-export default DRILLDOWNLEVELBOTTOM;
+export default createToken(DRILLDOWNLEVELBOTTOM);

@@ -6,4 +6,4 @@ const AVERAGE: ITokenConfig = {
     pattern: /AVERAGE/
 };
 
-export default AVERAGE;
+export default createToken(AVERAGE);

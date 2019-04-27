@@ -6,4 +6,4 @@ const DRILLUPLEVEL: ITokenConfig = {
     pattern: /DRILLUPLEVEL/
 };
 
-export default DRILLUPLEVEL;
+export default createToken(DRILLUPLEVEL);

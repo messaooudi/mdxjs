@@ -6,4 +6,4 @@ const FALSE: ITokenConfig = {
     pattern: /FALSE/
 };
 
-export default FALSE;
+export default createToken(FALSE);

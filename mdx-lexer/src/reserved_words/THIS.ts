@@ -6,4 +6,4 @@ const THIS: ITokenConfig = {
     pattern: /THIS/
 };
 
-export default THIS;
+export default createToken(THIS);

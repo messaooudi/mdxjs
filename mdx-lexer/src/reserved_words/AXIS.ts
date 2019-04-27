@@ -6,4 +6,4 @@ const AXIS: ITokenConfig = {
     pattern: /AXIS/
 };
 
-export default AXIS;
+export default createToken(AXIS);

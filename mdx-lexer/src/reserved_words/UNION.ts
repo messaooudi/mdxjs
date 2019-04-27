@@ -6,4 +6,4 @@ const UNION: ITokenConfig = {
     pattern: /UNION/
 };
 
-export default UNION;
+export default createToken(UNION);

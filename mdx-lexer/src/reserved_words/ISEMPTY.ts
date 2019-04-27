@@ -6,4 +6,4 @@ const ISEMPTY: ITokenConfig = {
     pattern: /ISEMPTY/
 };
 
-export default ISEMPTY;
+export default createToken(ISEMPTY);

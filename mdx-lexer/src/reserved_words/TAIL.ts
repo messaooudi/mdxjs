@@ -6,4 +6,4 @@ const TAIL: ITokenConfig = {
     pattern: /TAIL/
 };
 
-export default TAIL;
+export default createToken(TAIL);

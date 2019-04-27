@@ -6,4 +6,4 @@ const LASTPERIODS: ITokenConfig = {
     pattern: /LASTPERIODS/
 };
 
-export default LASTPERIODS;
+export default createToken(LASTPERIODS);

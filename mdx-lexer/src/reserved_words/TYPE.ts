@@ -6,4 +6,4 @@ const TYPE: ITokenConfig = {
     pattern: /TYPE/
 };
 
-export default TYPE;
+export default createToken(TYPE);

@@ -6,4 +6,4 @@ const USERNAME: ITokenConfig = {
     pattern: /USERNAME/
 };
 
-export default USERNAME;
+export default createToken(USERNAME);

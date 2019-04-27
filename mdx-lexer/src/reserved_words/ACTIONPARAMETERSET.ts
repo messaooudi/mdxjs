@@ -6,4 +6,4 @@ const ACTIONPARAMETERSET: ITokenConfig = {
     pattern: /ACTIONPARAMETERSET/
 };
 
-export default ACTIONPARAMETERSET;
+export default createToken(ACTIONPARAMETERSET);

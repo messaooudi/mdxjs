@@ -6,4 +6,4 @@ const TRUE: ITokenConfig = {
     pattern: /TRUE/
 };
 
-export default TRUE;
+export default createToken(TRUE);

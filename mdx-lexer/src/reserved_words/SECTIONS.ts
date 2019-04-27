@@ -6,4 +6,4 @@ const SECTIONS: ITokenConfig = {
     pattern: /SECTIONS/
 };
 
-export default SECTIONS;
+export default createToken(SECTIONS);

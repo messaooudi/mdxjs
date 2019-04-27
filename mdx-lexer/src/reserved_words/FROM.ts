@@ -6,4 +6,4 @@ const FROM: ITokenConfig = {
     pattern: /FROM/
 };
 
-export default FROM;
+export default createToken(FROM);

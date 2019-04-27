@@ -6,4 +6,4 @@ const GROUPING: ITokenConfig = {
     pattern: /GROUPING/
 };
 
-export default GROUPING;
+export default createToken(GROUPING);

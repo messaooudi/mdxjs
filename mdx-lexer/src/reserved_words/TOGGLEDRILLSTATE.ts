@@ -6,4 +6,4 @@ const TOGGLEDRILLSTATE: ITokenConfig = {
     pattern: /TOGGLEDRILLSTATE/
 };
 
-export default TOGGLEDRILLSTATE;
+export default createToken(TOGGLEDRILLSTATE);

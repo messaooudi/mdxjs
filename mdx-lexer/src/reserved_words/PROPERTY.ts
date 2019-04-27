@@ -6,4 +6,4 @@ const PROPERTY: ITokenConfig = {
     pattern: /PROPERTY/
 };
 
-export default PROPERTY;
+export default createToken(PROPERTY);

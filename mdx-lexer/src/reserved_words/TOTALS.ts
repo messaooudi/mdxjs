@@ -6,4 +6,4 @@ const TOTALS: ITokenConfig = {
     pattern: /TOTALS/
 };
 
-export default TOTALS;
+export default createToken(TOTALS);

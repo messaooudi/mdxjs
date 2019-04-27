@@ -6,4 +6,4 @@ const PREDICT: ITokenConfig = {
     pattern: /PREDICT/
 };
 
-export default PREDICT;
+export default createToken(PREDICT);

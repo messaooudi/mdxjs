@@ -6,4 +6,4 @@ const NO_ALLOCATION: ITokenConfig = {
     pattern: /NO_ALLOCATION/
 };
 
-export default NO_ALLOCATION;
+export default createToken(NO_ALLOCATION);

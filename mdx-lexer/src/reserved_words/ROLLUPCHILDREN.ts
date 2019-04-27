@@ -6,4 +6,4 @@ const ROLLUPCHILDREN: ITokenConfig = {
     pattern: /ROLLUPCHILDREN/
 };
 
-export default ROLLUPCHILDREN;
+export default createToken(ROLLUPCHILDREN);

@@ -6,4 +6,4 @@ const SUBSET: ITokenConfig = {
     pattern: /SUBSET/
 };
 
-export default SUBSET;
+export default createToken(SUBSET);

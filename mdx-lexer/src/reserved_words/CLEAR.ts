@@ -6,4 +6,4 @@ const CLEAR: ITokenConfig = {
     pattern: /CLEAR/
 };
 
-export default CLEAR;
+export default createToken(CLEAR);

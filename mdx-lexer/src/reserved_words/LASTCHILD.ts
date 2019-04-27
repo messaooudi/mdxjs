@@ -6,4 +6,4 @@ const LASTCHILD: ITokenConfig = {
     pattern: /LASTCHILD/
 };
 
-export default LASTCHILD;
+export default createToken(LASTCHILD);

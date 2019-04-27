@@ -6,4 +6,4 @@ const CALL: ITokenConfig = {
     pattern: /CALL/
 };
 
-export default CALL;
+export default createToken(CALL);

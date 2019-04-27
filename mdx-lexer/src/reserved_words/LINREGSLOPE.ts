@@ -6,4 +6,4 @@ const LINREGSLOPE: ITokenConfig = {
     pattern: /LINREGSLOPE/
 };
 
-export default LINREGSLOPE;
+export default createToken(LINREGSLOPE);

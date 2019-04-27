@@ -6,4 +6,4 @@ const FIRSTCHILD: ITokenConfig = {
     pattern: /FIRSTCHILD/
 };
 
-export default FIRSTCHILD;
+export default createToken(FIRSTCHILD);

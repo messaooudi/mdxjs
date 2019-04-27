@@ -6,4 +6,4 @@ const DRILLUPMEMBER: ITokenConfig = {
     pattern: /DRILLUPMEMBER/
 };
 
-export default DRILLUPMEMBER;
+export default createToken(DRILLUPMEMBER);

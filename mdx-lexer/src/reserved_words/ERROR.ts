@@ -6,4 +6,4 @@ const ERROR: ITokenConfig = {
     pattern: /ERROR/
 };
 
-export default ERROR;
+export default createToken(ERROR);

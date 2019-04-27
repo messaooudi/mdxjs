@@ -6,4 +6,4 @@ const WITH: ITokenConfig = {
     pattern: /WITH/
 };
 
-export default WITH;
+export default createToken(WITH);

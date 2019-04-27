@@ -6,4 +6,4 @@ const NONEMPTYCROSSJOIN: ITokenConfig = {
     pattern: /NONEMPTYCROSSJOIN/
 };
 
-export default NONEMPTYCROSSJOIN;
+export default createToken(NONEMPTYCROSSJOIN);

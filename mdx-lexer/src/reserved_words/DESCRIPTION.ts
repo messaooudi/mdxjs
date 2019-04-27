@@ -6,4 +6,4 @@ const DESCRIPTION: ITokenConfig = {
     pattern: /DESCRIPTION/
 };
 
-export default DESCRIPTION;
+export default createToken(DESCRIPTION);

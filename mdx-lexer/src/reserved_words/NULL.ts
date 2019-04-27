@@ -6,4 +6,4 @@ const NULL: ITokenConfig = {
     pattern: /NULL/
 };
 
-export default NULL;
+export default createToken(NULL);

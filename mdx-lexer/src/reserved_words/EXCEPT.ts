@@ -6,4 +6,4 @@ const EXCEPT: ITokenConfig = {
     pattern: /EXCEPT/
 };
 
-export default EXCEPT;
+export default createToken(EXCEPT);

@@ -6,4 +6,4 @@ const USE: ITokenConfig = {
     pattern: /USE/
 };
 
-export default USE;
+export default createToken(USE);

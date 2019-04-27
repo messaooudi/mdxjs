@@ -6,4 +6,4 @@ const ISLEAF: ITokenConfig = {
     pattern: /ISLEAF/
 };
 
-export default ISLEAF;
+export default createToken(ISLEAF);

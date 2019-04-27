@@ -6,4 +6,4 @@ const AND: ITokenConfig = {
     pattern: /AND/
 };
 
-export default AND;
+export default createToken(AND);

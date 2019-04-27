@@ -6,4 +6,4 @@ const SET: ITokenConfig = {
     pattern: /SET/
 };
 
-export default SET;
+export default createToken(SET);

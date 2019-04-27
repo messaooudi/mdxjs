@@ -6,4 +6,4 @@ const NAME: ITokenConfig = {
     pattern: /NAME/
 };
 
-export default NAME;
+export default createToken(NAME);

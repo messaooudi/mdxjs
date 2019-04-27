@@ -6,4 +6,4 @@ const EXCLUDEEMPTY: ITokenConfig = {
     pattern: /EXCLUDEEMPTY/
 };
 
-export default EXCLUDEEMPTY;
+export default createToken(EXCLUDEEMPTY);

@@ -6,4 +6,4 @@ const AGGREGATE: ITokenConfig = {
     pattern: /AGGREGATE/
 };
 
-export default AGGREGATE;
+export default createToken(AGGREGATE);

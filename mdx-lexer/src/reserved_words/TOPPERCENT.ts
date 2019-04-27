@@ -6,4 +6,4 @@ const TOPPERCENT: ITokenConfig = {
     pattern: /TOPPERCENT/
 };
 
-export default TOPPERCENT;
+export default createToken(TOPPERCENT);

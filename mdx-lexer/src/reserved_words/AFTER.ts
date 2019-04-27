@@ -6,4 +6,4 @@ const AFTER: ITokenConfig = {
     pattern: /AFTER/
 };
 
-export default AFTER;
+export default createToken(AFTER);

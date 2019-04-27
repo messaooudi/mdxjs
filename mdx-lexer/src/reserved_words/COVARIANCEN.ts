@@ -6,4 +6,4 @@ const COVARIANCEN: ITokenConfig = {
     pattern: /COVARIANCEN/
 };
 
-export default COVARIANCEN;
+export default createToken(COVARIANCEN);

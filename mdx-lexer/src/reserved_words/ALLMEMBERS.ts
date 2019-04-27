@@ -6,4 +6,4 @@ const ALLMEMBERS: ITokenConfig = {
     pattern: /ALLMEMBERS/
 };
 
-export default ALLMEMBERS;
+export default createToken(ALLMEMBERS);

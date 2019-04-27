@@ -6,4 +6,4 @@ const COALESCEEMPTY: ITokenConfig = {
     pattern: /COALESCEEMPTY/
 };
 
-export default COALESCEEMPTY;
+export default createToken(COALESCEEMPTY);

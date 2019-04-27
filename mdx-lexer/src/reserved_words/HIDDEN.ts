@@ -6,4 +6,4 @@ const HIDDEN: ITokenConfig = {
     pattern: /HIDDEN/
 };
 
-export default HIDDEN;
+export default createToken(HIDDEN);

@@ -6,4 +6,4 @@ const DESC: ITokenConfig = {
     pattern: /DESC/
 };
 
-export default DESC;
+export default createToken(DESC);

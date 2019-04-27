@@ -6,4 +6,4 @@ const STDDEVP: ITokenConfig = {
     pattern: /STDDEVP/
 };
 
-export default STDDEVP;
+export default createToken(STDDEVP);

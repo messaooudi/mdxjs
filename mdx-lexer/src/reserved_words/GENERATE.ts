@@ -6,4 +6,4 @@ const GENERATE: ITokenConfig = {
     pattern: /GENERATE/
 };
 
-export default GENERATE;
+export default createToken(GENERATE);

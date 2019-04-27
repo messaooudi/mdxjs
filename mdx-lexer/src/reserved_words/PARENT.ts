@@ -6,4 +6,4 @@ const PARENT: ITokenConfig = {
     pattern: /PARENT/
 };
 
-export default PARENT;
+export default createToken(PARENT);

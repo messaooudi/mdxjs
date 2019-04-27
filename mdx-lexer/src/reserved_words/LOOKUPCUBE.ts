@@ -6,4 +6,4 @@ const LOOKUPCUBE: ITokenConfig = {
     pattern: /LOOKUPCUBE/
 };
 
-export default LOOKUPCUBE;
+export default createToken(LOOKUPCUBE);

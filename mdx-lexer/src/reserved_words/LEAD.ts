@@ -6,4 +6,4 @@ const LEAD: ITokenConfig = {
     pattern: /LEAD/
 };
 
-export default LEAD;
+export default createToken(LEAD);

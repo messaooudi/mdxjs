@@ -6,4 +6,4 @@ const ISGENERATION: ITokenConfig = {
     pattern: /ISGENERATION/
 };
 
-export default ISGENERATION;
+export default createToken(ISGENERATION);

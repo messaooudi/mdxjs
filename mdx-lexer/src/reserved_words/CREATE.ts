@@ -6,4 +6,4 @@ const CREATE: ITokenConfig = {
     pattern: /CREATE/
 };
 
-export default CREATE;
+export default createToken(CREATE);

@@ -6,4 +6,4 @@ const SELF: ITokenConfig = {
     pattern: /SELF/
 };
 
-export default SELF;
+export default createToken(SELF);

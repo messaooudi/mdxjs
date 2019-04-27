@@ -6,4 +6,4 @@ const CHILDREN: ITokenConfig = {
     pattern: /CHILDREN/
 };
 
-export default CHILDREN;
+export default createToken(CHILDREN);

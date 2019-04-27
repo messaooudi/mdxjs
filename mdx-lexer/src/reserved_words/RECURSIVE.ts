@@ -6,4 +6,4 @@ const RECURSIVE: ITokenConfig = {
     pattern: /RECURSIVE/
 };
 
-export default RECURSIVE;
+export default createToken(RECURSIVE);

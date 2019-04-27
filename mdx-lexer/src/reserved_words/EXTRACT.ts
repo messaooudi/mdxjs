@@ -6,4 +6,4 @@ const EXTRACT: ITokenConfig = {
     pattern: /EXTRACT/
 };
 
-export default EXTRACT;
+export default createToken(EXTRACT);

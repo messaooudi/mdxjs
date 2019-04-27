@@ -6,4 +6,4 @@ const CALCULATIONCURRENTPASS: ITokenConfig = {
     pattern: /CALCULATIONCURRENTPASS/
 };
 
-export default CALCULATIONCURRENTPASS;
+export default createToken(CALCULATIONCURRENTPASS);

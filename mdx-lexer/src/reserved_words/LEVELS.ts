@@ -6,4 +6,4 @@ const LEVELS: ITokenConfig = {
     pattern: /LEVELS/
 };
 
-export default LEVELS;
+export default createToken(LEVELS);

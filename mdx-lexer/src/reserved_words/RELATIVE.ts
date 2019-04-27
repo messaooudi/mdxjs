@@ -6,4 +6,4 @@ const RELATIVE: ITokenConfig = {
     pattern: /RELATIVE/
 };
 
-export default RELATIVE;
+export default createToken(RELATIVE);

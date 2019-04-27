@@ -6,4 +6,4 @@ const MAX: ITokenConfig = {
     pattern: /MAX/
 };
 
-export default MAX;
+export default createToken(MAX);

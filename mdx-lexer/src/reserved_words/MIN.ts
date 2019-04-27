@@ -6,4 +6,4 @@ const MIN: ITokenConfig = {
     pattern: /MIN/
 };
 
-export default MIN;
+export default createToken(MIN);

@@ -6,4 +6,4 @@ const LASTSIBLING: ITokenConfig = {
     pattern: /LASTSIBLING/
 };
 
-export default LASTSIBLING;
+export default createToken(LASTSIBLING);

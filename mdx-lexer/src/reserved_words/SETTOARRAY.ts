@@ -6,4 +6,4 @@ const SETTOARRAY: ITokenConfig = {
     pattern: /SETTOARRAY/
 };
 
-export default SETTOARRAY;
+export default createToken(SETTOARRAY);

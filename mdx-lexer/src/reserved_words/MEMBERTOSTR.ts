@@ -6,4 +6,4 @@ const MEMBERTOSTR: ITokenConfig = {
     pattern: /MEMBERTOSTR/
 };
 
-export default MEMBERTOSTR;
+export default createToken(MEMBERTOSTR);

@@ -6,4 +6,4 @@ const NOT_RELATED_TO_FACTS: ITokenConfig = {
     pattern: /NOT_RELATED_TO_FACTS/
 };
 
-export default NOT_RELATED_TO_FACTS;
+export default createToken(NOT_RELATED_TO_FACTS);

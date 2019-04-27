@@ -6,4 +6,4 @@ const USE_WEIGHTED_INCREMENT: ITokenConfig = {
     pattern: /USE_WEIGHTED_INCREMENT/
 };
 
-export default USE_WEIGHTED_INCREMENT;
+export default createToken(USE_WEIGHTED_INCREMENT);

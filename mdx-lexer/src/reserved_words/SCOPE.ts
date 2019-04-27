@@ -6,4 +6,4 @@ const SCOPE: ITokenConfig = {
     pattern: /SCOPE/
 };
 
-export default SCOPE;
+export default createToken(SCOPE);

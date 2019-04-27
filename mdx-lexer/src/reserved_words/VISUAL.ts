@@ -6,4 +6,4 @@ const VISUAL: ITokenConfig = {
     pattern: /VISUAL/
 };
 
-export default VISUAL;
+export default createToken(VISUAL);

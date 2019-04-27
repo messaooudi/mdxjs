@@ -6,4 +6,4 @@ const CACHE: ITokenConfig = {
     pattern: /CACHE/
 };
 
-export default CACHE;
+export default createToken(CACHE);

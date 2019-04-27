@@ -6,4 +6,4 @@ const QTD: ITokenConfig = {
     pattern: /QTD/
 };
 
-export default QTD;
+export default createToken(QTD);

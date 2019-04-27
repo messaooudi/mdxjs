@@ -6,4 +6,4 @@ const IS: ITokenConfig = {
     pattern: /IS/
 };
 
-export default IS;
+export default createToken(IS);

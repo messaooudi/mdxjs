@@ -6,4 +6,4 @@ const SELECT: ITokenConfig = {
     pattern: /SELECT/
 };
 
-export default SELECT;
+export default createToken(SELECT);

@@ -6,4 +6,4 @@ const GROUP: ITokenConfig = {
     pattern: /GROUP/
 };
 
-export default GROUP;
+export default createToken(GROUP);

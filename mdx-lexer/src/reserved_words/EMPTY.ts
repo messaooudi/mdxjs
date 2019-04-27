@@ -6,4 +6,4 @@ const EMPTY: ITokenConfig = {
     pattern: /EMPTY/
 };
 
-export default EMPTY;
+export default createToken(EMPTY);

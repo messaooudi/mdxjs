@@ -6,4 +6,4 @@ const BOTTOMSUM: ITokenConfig = {
     pattern: /BOTTOMSUM/
 };
 
-export default BOTTOMSUM;
+export default createToken(BOTTOMSUM);

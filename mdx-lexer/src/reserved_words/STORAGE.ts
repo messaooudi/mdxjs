@@ -6,4 +6,4 @@ const STORAGE: ITokenConfig = {
     pattern: /STORAGE/
 };
 
-export default STORAGE;
+export default createToken(STORAGE);

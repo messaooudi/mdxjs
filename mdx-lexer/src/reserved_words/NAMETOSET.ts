@@ -6,4 +6,4 @@ const NAMETOSET: ITokenConfig = {
     pattern: /NAMETOSET/
 };
 
-export default NAMETOSET;
+export default createToken(NAMETOSET);

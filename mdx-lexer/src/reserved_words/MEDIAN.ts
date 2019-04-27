@@ -6,4 +6,4 @@ const MEDIAN: ITokenConfig = {
     pattern: /MEDIAN/
 };
 
-export default MEDIAN;
+export default createToken(MEDIAN);

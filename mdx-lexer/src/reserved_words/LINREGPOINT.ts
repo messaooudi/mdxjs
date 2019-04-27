@@ -6,4 +6,4 @@ const LINREGPOINT: ITokenConfig = {
     pattern: /LINREGPOINT/
 };
 
-export default LINREGPOINT;
+export default createToken(LINREGPOINT);

@@ -6,4 +6,4 @@ const DROP: ITokenConfig = {
     pattern: /DROP/
 };
 
-export default DROP;
+export default createToken(DROP);

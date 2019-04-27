@@ -6,4 +6,4 @@ const RANK: ITokenConfig = {
     pattern: /RANK/
 };
 
-export default RANK;
+export default createToken(RANK);

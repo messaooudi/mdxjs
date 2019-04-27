@@ -6,4 +6,4 @@ const PAGES: ITokenConfig = {
     pattern: /PAGES/
 };
 
-export default PAGES;
+export default createToken(PAGES);

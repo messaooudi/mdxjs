@@ -6,4 +6,4 @@ const STRTOSET: ITokenConfig = {
     pattern: /STRTOSET/
 };
 
-export default STRTOSET;
+export default createToken(STRTOSET);

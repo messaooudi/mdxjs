@@ -6,4 +6,4 @@ const STRIPCALCULATEDMEMBERS: ITokenConfig = {
     pattern: /STRIPCALCULATEDMEMBERS/
 };
 
-export default STRIPCALCULATEDMEMBERS;
+export default createToken(STRIPCALCULATEDMEMBERS);

@@ -6,4 +6,4 @@ const ADDCALCULATEDMEMBERS: ITokenConfig = {
     pattern: /ADDCALCULATEDMEMBERS/
 };
 
-export default ADDCALCULATEDMEMBERS;
+export default createToken(ADDCALCULATEDMEMBERS);

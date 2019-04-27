@@ -8,4 +8,4 @@ const ANCESTOR: ITokenConfig = {
     longer_alt:ANCESTORS
 };
 
-export default ANCESTOR;
+export default createToken(ANCESTOR);
