@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const NO_PROPERTIES: ITokenConfig = {
     label: "NO_PROPERTIES key word",

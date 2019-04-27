@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const TUPLETOSTR: ITokenConfig = {
     label: "TUPLETOSTR key word",

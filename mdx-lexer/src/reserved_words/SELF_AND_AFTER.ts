@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const SELF_AND_AFTER: ITokenConfig = {
     label: "SELF_AND_AFTER key word",

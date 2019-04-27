@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const USE_WEIGHTED_ALLOCATION: ITokenConfig = {
     label: "USE_WEIGHTED_ALLOCATION key word",

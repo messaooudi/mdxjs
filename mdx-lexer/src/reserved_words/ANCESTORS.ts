@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const ANCESTORS: ITokenConfig = {
     label: "ANCESTORS key word",

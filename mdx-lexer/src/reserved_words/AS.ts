@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain";
+import { ITokenConfig , createToken } from "chevrotain";;
 import ASC from "./ASC";
 
 const AS: ITokenConfig = {

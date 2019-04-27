@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const USE_WEIGHTED_INCREMENT: ITokenConfig = {
     label: "USE_WEIGHTED_INCREMENT key word",

@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const NOT_RELATED_TO_FACTS: ITokenConfig = {
     label: "NOT_RELATED_TO_FACTS key word",

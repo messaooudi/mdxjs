@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const COVARIANCE: ITokenConfig = {
     label: "COVARIANCE key word",

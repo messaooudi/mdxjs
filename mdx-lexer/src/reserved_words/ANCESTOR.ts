@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain";
+import { ITokenConfig , createToken } from "chevrotain";;
 import ANCESTORS from "./ANCESTORS";
 
 const ANCESTOR: ITokenConfig = {

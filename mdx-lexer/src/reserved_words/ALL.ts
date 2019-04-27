@@ -1,4 +1,4 @@
-import { ITokenConfig } from "chevrotain";
+import { ITokenConfig , createToken } from "chevrotain";;
 import ALLMEMBERS from "./ALLMEMBERS";
 
 const ALL: ITokenConfig = {

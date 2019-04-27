@@ -1,4 +1,4 @@
-import INDEX from "../INDEX";
+import INDEX from "../_INDEX";
 
 test('INDEX reserved word', () => {
   expect('INDEX').toMatch(INDEX.PATTERN as RegExp);
