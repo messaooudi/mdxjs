@@ -9,6 +9,4 @@ WHERE(
 , [Customer].[Customer Geography].[Country].&[United Kingdom]}  
 , [Product].[Category].&[1])
 `
-let lexingResult = mdxLexer.tokenize(inputText)
-
-console.log(lexingResult)
+let lexingResult = mdxLexer.tokenize(inputText);
