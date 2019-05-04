@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const AVERAGE: ITokenConfig = {
     label: "AVERAGE key word",
     name: "average",
-    pattern: "/AVERAGE/"
+    pattern: /AVERAGE/
 };
 
-export default AVERAGE;
+export default createToken(AVERAGE);

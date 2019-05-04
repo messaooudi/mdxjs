@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const BDESC: ITokenConfig = {
     label: "BDESC key word",
     name: "bdesc",
-    pattern: "/BDESC/"
+    pattern: /BDESC/
 };
 
-export default BDESC;
+export default createToken(BDESC);

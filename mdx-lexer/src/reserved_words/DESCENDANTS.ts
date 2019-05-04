@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const DESCENDANTS: ITokenConfig = {
     label: "DESCENDANTS key word",
     name: "descendants",
-    pattern: "/DESCENDANTS/"
+    pattern: /DESCENDANTS/
 };
 
-export default DESCENDANTS;
+export default createToken(DESCENDANTS);

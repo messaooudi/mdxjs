@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const CURRENTMEMBER: ITokenConfig = {
     label: "CURRENTMEMBER key word",
     name: "current member",
-    pattern: "/CURRENTMEMBER/"
+    pattern: /CURRENTMEMBER/
 };
 
-export default CURRENTMEMBER;
+export default createToken(CURRENTMEMBER);

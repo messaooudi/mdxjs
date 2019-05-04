@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const ISLEAF: ITokenConfig = {
     label: "ISLEAF key word",
     name: "is leaf",
-    pattern: "/ISLEAF/"
+    pattern: /ISLEAF/
 };
 
-export default ISLEAF;
+export default createToken(ISLEAF);

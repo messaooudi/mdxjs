@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const AFTER: ITokenConfig = {
     label: "AFTER key word",
     name: "after",
-    pattern: "/AFTER/"
+    pattern: /AFTER/
 };
 
-export default AFTER;
+export default createToken(AFTER);

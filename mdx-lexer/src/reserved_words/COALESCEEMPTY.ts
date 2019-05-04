@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const COALESCEEMPTY: ITokenConfig = {
     label: "COALESCEEMPTY key word",
     name: "coalesce empty",
-    pattern: "/COALESCEEMPTY/"
+    pattern: /COALESCEEMPTY/
 };
 
-export default COALESCEEMPTY;
+export default createToken(COALESCEEMPTY);

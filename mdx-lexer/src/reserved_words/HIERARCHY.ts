@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const HIERARCHY: ITokenConfig = {
     label: "HIERARCHY key word",
     name: "hierarchy",
-    pattern: "/HIERARCHY/"
+    pattern: /HIERARCHY/
 };
 
-export default HIERARCHY;
+export default createToken(HIERARCHY);

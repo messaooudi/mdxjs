@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const DISTINCTCOUNT: ITokenConfig = {
     label: "DISTINCTCOUNT key word",
     name: "distinct count",
-    pattern: "/DISTINCTCOUNT/"
+    pattern: /DISTINCTCOUNT/
 };
 
-export default DISTINCTCOUNT;
+export default createToken(DISTINCTCOUNT);

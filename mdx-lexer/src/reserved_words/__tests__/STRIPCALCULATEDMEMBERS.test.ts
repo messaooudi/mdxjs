@@ -1,0 +1,6 @@
+import STRIPCALCULATEDMEMBERS from "../STRIPCALCULATEDMEMBERS";
+
+test('STRIPCALCULATEDMEMBERS reserved word', () => {
+  expect('STRIPCALCULATEDMEMBERS').toMatch(STRIPCALCULATEDMEMBERS.PATTERN as RegExp);
+  expect('something else').not.toMatch(STRIPCALCULATEDMEMBERS.PATTERN as RegExp);
+});

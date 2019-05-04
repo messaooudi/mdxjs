@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const CURRENTCUBE: ITokenConfig = {
     label: "CURRENTCUBE key word",
     name: "current cube",
-    pattern: "/CURRENTCUBE/"
+    pattern: /CURRENTCUBE/
 };
 
-export default CURRENTCUBE;
+export default createToken(CURRENTCUBE);

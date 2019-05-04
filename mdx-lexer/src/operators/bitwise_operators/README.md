@@ -1,0 +1,1 @@
+see : https://docs.microsoft.com/en-us/sql/mdx/bitwise-operators?view=sql-server-2017

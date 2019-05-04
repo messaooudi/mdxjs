@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const ABSOLUTE: ITokenConfig = {
     label: "ABSOLUTE key word",
     name: "absolute",
-    pattern: "/ABSOLUTE/"
+    pattern: /ABSOLUTE/
 };
 
-export default ABSOLUTE;
+export default createToken(ABSOLUTE);

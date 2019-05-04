@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const HIDDEN: ITokenConfig = {
     label: "HIDDEN key word",
     name: "hidden",
-    pattern: "/HIDDEN/"
+    pattern: /HIDDEN/
 };
 
-export default HIDDEN;
+export default createToken(HIDDEN);

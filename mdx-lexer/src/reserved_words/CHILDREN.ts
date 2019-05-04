@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const CHILDREN: ITokenConfig = {
     label: "CHILDREN key word",
     name: "children",
-    pattern: "/CHILDREN/"
+    pattern: /CHILDREN/
 };
 
-export default CHILDREN;
+export default createToken(CHILDREN);

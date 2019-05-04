@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const ERROR: ITokenConfig = {
     label: "ERROR key word",
     name: "error",
-    pattern: "/ERROR/"
+    pattern: /ERROR/
 };
 
-export default ERROR;
+export default createToken(ERROR);

@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const INTERSECT: ITokenConfig = {
     label: "INTERSECT key word",
     name: "intersect",
-    pattern: "/INTERSECT/"
+    pattern: /INTERSECT/
 };
 
-export default INTERSECT;
+export default createToken(INTERSECT);

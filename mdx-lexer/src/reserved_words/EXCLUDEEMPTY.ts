@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const EXCLUDEEMPTY: ITokenConfig = {
     label: "EXCLUDEEMPTY key word",
     name: "exclude empty",
-    pattern: "/EXCLUDEEMPTY/"
+    pattern: /EXCLUDEEMPTY/
 };
 
-export default EXCLUDEEMPTY;
+export default createToken(EXCLUDEEMPTY);

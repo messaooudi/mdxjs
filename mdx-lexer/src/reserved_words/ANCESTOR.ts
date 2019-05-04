@@ -1,9 +1,11 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";;
+import ANCESTORS from "./ANCESTORS";
 
 const ANCESTOR: ITokenConfig = {
     label: "ANCESTOR key word",
     name: "ancestor",
-    pattern: "/ANCESTOR/"
+    pattern: /ANCESTOR/,
+    longer_alt:ANCESTORS
 };
 
-export default ANCESTOR;
+export default createToken(ANCESTOR);

@@ -1,0 +1,9 @@
+import { ITokenConfig , createToken } from "chevrotain";
+
+const SECTIONS: ITokenConfig = {
+    label: "SECTIONS key word",
+    name: "sections",
+    pattern: /SECTIONS/
+};
+
+export default createToken(SECTIONS);

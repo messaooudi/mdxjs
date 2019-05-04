@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const CROSSJOIN: ITokenConfig = {
     label: "CROSSJOIN key word",
     name: "cross join",
-    pattern: "/CROSSJOIN/"
+    pattern: /CROSSJOIN/
 };
 
-export default CROSSJOIN;
+export default createToken(CROSSJOIN);

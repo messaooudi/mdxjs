@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const FIRSTCHILD: ITokenConfig = {
     label: "FIRSTCHILD key word",
     name: "first child",
-    pattern: "/FIRSTCHILD/"
+    pattern: /FIRSTCHILD/
 };
 
-export default FIRSTCHILD;
+export default createToken(FIRSTCHILD);

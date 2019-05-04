@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const ISSIBLING: ITokenConfig = {
     label: "ISSIBLING key word",
     name: "is sibling",
-    pattern: "/ISSIBLING/"
+    pattern: /ISSIBLING/
 };
 
-export default ISSIBLING;
+export default createToken(ISSIBLING);

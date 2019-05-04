@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const GLOBAL: ITokenConfig = {
     label: "GLOBAL key word",
     name: "global",
-    pattern: "/GLOBAL/"
+    pattern: /GLOBAL/
 };
 
-export default GLOBAL;
+export default createToken(GLOBAL);

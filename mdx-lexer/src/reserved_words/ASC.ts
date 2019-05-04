@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const ASC: ITokenConfig = {
     label: "ASC key word",
     name: "asc",
-    pattern: "/ASC/"
+    pattern: /ASC/
 };
 
-export default ASC;
+export default createToken(ASC);

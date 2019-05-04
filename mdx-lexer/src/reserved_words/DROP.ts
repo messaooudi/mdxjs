@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const DROP: ITokenConfig = {
     label: "DROP key word",
     name: "drop",
-    pattern: "/DROP/"
+    pattern: /DROP/
 };
 
-export default DROP;
+export default createToken(DROP);

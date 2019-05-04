@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const FOR: ITokenConfig = {
     label: "FOR key word",
     name: "for",
-    pattern: "/FOR/"
+    pattern: /FOR/
 };
 
-export default FOR;
+export default createToken(FOR);

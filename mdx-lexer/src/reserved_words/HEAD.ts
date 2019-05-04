@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const HEAD: ITokenConfig = {
     label: "HEAD key word",
     name: "head",
-    pattern: "/HEAD/"
+    pattern: /HEAD/
 };
 
-export default HEAD;
+export default createToken(HEAD);

@@ -1,5 +1,11 @@
-{
-  "dependencies": {
-    "chevrotain": "^4.3.3"
+{ 
+  "name" : "mdxjs",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["mdx-lexer", "mdx-parser"],
+  "scripts": {
+    "test-lexer": "yarn workspace mdx-lexer run test",
+    "test-parser": "yarn workspace mdx-parser run test",
+    "test-all":"yarn workspaces run test"
   }
 }

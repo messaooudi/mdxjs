@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const FROM: ITokenConfig = {
     label: "FROM key word",
     name: "from",
-    pattern: "/FROM/"
+    pattern: /FROM/
 };
 
-export default FROM;
+export default createToken(FROM);

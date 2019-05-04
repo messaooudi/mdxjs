@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const DRILLDOWNLEVELBOTTOM: ITokenConfig = {
     label: "DRILLDOWNLEVELBOTTOM key word",
     name: "drilldown level bottom",
-    pattern: "/DRILLDOWNLEVELBOTTOM/"
+    pattern: /DRILLDOWNLEVELBOTTOM/
 };
 
-export default DRILLDOWNLEVELBOTTOM;
+export default createToken(DRILLDOWNLEVELBOTTOM);

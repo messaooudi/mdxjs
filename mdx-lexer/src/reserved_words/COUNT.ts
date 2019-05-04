@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const COUNT: ITokenConfig = {
     label: "COUNT key word",
     name: "count",
-    pattern: "/COUNT/"
+    pattern: /COUNT/
 };
 
-export default COUNT;
+export default createToken(COUNT);

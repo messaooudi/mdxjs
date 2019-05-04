@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const COUSIN: ITokenConfig = {
     label: "COUSIN key word",
     name: "cousin",
-    pattern: "/COUSIN/"
+    pattern: /COUSIN/
 };
 
-export default COUSIN;
+export default createToken(COUSIN);

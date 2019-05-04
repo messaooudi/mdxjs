@@ -1,0 +1,24 @@
+version: 2.1
+jobs:
+  test:
+    working_directory: ~/mdxjs
+    docker:
+      - image: circleci/node:8
+    resource_class: large
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies
+          command: yarn install
+      - run:
+          name: Run mdx-lexer Tests
+          command: yarn workspace mdx-lexer run test
+      - run:
+          name: Run mdx-parser Tests
+          command: yarn workspace mdx-parser run test
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test
+

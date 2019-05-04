@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const EMPTY: ITokenConfig = {
     label: "EMPTY key word",
     name: "empty",
-    pattern: "/EMPTY/"
+    pattern: /EMPTY/
 };
 
-export default EMPTY;
+export default createToken(EMPTY);

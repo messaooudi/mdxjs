@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const CALCULATIONCURRENTPASS: ITokenConfig = {
     label: "CALCULATIONCURRENTPASS key word",
     name: "calculation on current pass",
-    pattern: "/CALCULATIONCURRENTPASS/"
+    pattern: /CALCULATIONCURRENTPASS/
 };
 
-export default CALCULATIONCURRENTPASS;
+export default createToken(CALCULATIONCURRENTPASS);

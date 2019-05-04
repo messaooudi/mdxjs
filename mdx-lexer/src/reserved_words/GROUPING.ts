@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const GROUPING: ITokenConfig = {
     label: "GROUPING key word",
     name: "grouping",
-    pattern: "/GROUPING/"
+    pattern: /GROUPING/
 };
 
-export default GROUPING;
+export default createToken(GROUPING);

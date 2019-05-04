@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const DIMENSION: ITokenConfig = {
     label: "DIMENSION key word",
     name: "dimension",
-    pattern: "/DIMENSION/"
+    pattern: /DIMENSION/
 };
 
-export default DIMENSION;
+export default createToken(DIMENSION);

@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const AXIS: ITokenConfig = {
     label: "AXIS key word",
     name: "axis",
-    pattern: "/AXIS/"
+    pattern: /AXIS/
 };
 
-export default AXIS;
+export default createToken(AXIS);

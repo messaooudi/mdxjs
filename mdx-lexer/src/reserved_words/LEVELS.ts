@@ -1,0 +1,9 @@
+import { ITokenConfig , createToken } from "chevrotain";
+
+const LEVELS: ITokenConfig = {
+    label: "LEVELS key word",
+    name: "levels",
+    pattern: /LEVELS/
+};
+
+export default createToken(LEVELS);

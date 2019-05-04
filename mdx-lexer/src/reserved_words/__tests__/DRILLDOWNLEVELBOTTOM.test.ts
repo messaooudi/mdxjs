@@ -1,0 +1,6 @@
+import DRILLDOWNLEVELBOTTOM from "../DRILLDOWNLEVELBOTTOM";
+
+test('DRILLDOWNLEVELBOTTOM reserved word', () => {
+  expect('DRILLDOWNLEVELBOTTOM').toMatch(DRILLDOWNLEVELBOTTOM.PATTERN as RegExp);
+  expect('something else').not.toMatch(DRILLDOWNLEVELBOTTOM.PATTERN as RegExp);
+});

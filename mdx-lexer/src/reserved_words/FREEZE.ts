@@ -1,9 +1,9 @@
-import { ITokenConfig } from "chevrotain"
+import { ITokenConfig , createToken } from "chevrotain";
 
 const FREEZE: ITokenConfig = {
     label: "FREEZE key word",
     name: "freeze",
-    pattern: "/FREEZE/"
+    pattern: /FREEZE/
 };
 
-export default FREEZE;
+export default createToken(FREEZE);
