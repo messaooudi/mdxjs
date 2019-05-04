@@ -1,24 +1,63 @@
 version: 2.1
-jobs:
-  test:
-    working_directory: ~/mdxjs
+
+aliases:
+  - &attach_workspace
+      attach_workspace:
+         at: ~/
+
+executors:
+  nodejs:
     docker:
-      - image: circleci/node:8
-    resource_class: large
+      - image: circleci/node:10.15.3
+        environment: NODE_OPTIONS=--max_old_space_size=2048
+
+jobs:
+  install-node-dependencies:
+    executor: nodejs
     steps:
       - checkout
+      - restore_cache:
+          keys:
+            - workspace-yarn-v2-{{ checksum "yarn.lock" }}
       - run:
           name: Install Dependencies
           command: yarn install
-      - run:
-          name: Run mdx-lexer Tests
-          command: yarn workspace mdx-lexer run test
-      - run:
-          name: Run mdx-parser Tests
-          command: yarn workspace mdx-parser run test
-workflows:
-  version: 2
-  test:
-    jobs:
-      - test
+      - persist_to_workspace:
+          root: ~/
+          paths:
+            - project
+            - .cache
+      - save_cache:
+          key: workspace-yarn-v2-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache
+            - node_modules
+            - mdx-lexer/node_modules
+            - mdx-parser/node_modules
 
+  unit-tests:
+    executor: nodejs
+    steps:
+      - *attach_workspace
+      - run:
+          name: unit tests
+          command: yarn test-all --maxWorkers 2
+
+  lint:
+    executor: nodejs
+    steps:
+      - *attach_workspace 
+      - run:
+          name: ESlint
+          command: yarn lint-all
+
+workflows:
+  check-pull-request:
+    jobs:
+      - install-node-dependencies
+      - unit-tests: 
+          requires: 
+            - install-node-dependencies
+      - lint:
+          requires: 
+            - install-node-dependencies

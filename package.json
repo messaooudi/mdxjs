@@ -5,7 +5,10 @@
   "workspaces": ["mdx-lexer", "mdx-parser"],
   "scripts": {
     "test-lexer": "yarn workspace mdx-lexer run test",
+    "lint-lexer" :"yarn workspace mdx-lexer run lint",
     "test-parser": "yarn workspace mdx-parser run test",
-    "test-all":"yarn workspaces run test"
+    "lint-parser" :"yarn workspace mdx-lexer run lint",
+    "test-all":"yarn workspaces run test",
+    "lint-all":"yarn workspaces run lint"
   }
 }
