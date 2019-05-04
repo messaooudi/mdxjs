@@ -1,9 +1,9 @@
 {
-  "name": "mdx-lexer",
+  "name": "mdx-parser",
   "version": "1.0.0",
-  "description": "lexer for mdx ",
+  "description": "parser for mdx",
   "main": "src/index.ts",
-  "repository": "https://github.com/messaooudi/mdxjs/tree/master/mdx-lexer",
+  "repository": "https://github.com/messaooudi/mdxjs/tree/master/mdx-parser",
   "author": "MESSAOUDI Oussama",
   "license": "MIT",
   "private": true,
@@ -33,6 +33,7 @@
     "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {
+    "mdx-lexer" : "1.0.0",
     "chevrotain": "^4.3.3"
   }
 }

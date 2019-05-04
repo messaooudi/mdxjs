@@ -1,0 +1,63 @@
+version: 2.1
+
+aliases:
+  - &attach_workspace
+      attach_workspace:
+         at: ~/
+
+executors:
+  nodejs:
+    docker:
+      - image: circleci/node:10.15.3
+        environment: NODE_OPTIONS=--max_old_space_size=2048
+
+jobs:
+  install-node-dependencies:
+    executor: nodejs
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - workspace-yarn-v2-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install Dependencies
+          command: yarn install
+      - persist_to_workspace:
+          root: ~/
+          paths:
+            - project
+            - .cache
+      - save_cache:
+          key: workspace-yarn-v2-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache
+            - node_modules
+            - mdx-lexer/node_modules
+            - mdx-parser/node_modules
+
+  unit-tests:
+    executor: nodejs
+    steps:
+      - *attach_workspace
+      - run:
+          name: unit tests
+          command: yarn test --maxWorkers 2
+
+  lint:
+    executor: nodejs
+    steps:
+      - *attach_workspace 
+      - run:
+          name: ESlint
+          command: yarn lint
+
+workflows:
+  check-pull-request:
+    jobs:
+      - install-node-dependencies
+      - unit-tests: 
+          requires: 
+            - install-node-dependencies
+      - lint:
+          requires: 
+            - install-node-dependencies
