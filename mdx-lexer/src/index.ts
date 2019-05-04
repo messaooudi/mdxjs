@@ -23,18 +23,6 @@ const mdxTokens: TokenType[] = [
     ...(Object as any).values(identifiers),
 ]
 
-console.table(mdxTokens);
 const mdxLexer = new Lexer(mdxTokens);
 
-let inputText = `
-SELECT {[Measures].[Internet Sales Amount]} ON COLUMNS,  
-[Date].[Calendar Year].MEMBERS ON ROWS  
-FROM [Adventure Works]  
-WHERE(  
-{[Customer].[Customer Geography].[Country].&[United States]  
-, [Customer].[Customer Geography].[Country].&[United Kingdom]}  
-, [Product].[Category].&[1])
-`
-let lexingResult = mdxLexer.tokenize(inputText)
-
-console.log(lexingResult)
+export default mdxLexer;
