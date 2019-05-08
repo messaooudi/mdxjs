@@ -37,6 +37,7 @@ jobs:
 
   unit-tests:
     executor: nodejs
+    parallelism: 4
     steps:
       - *attach_workspace
       - run:
