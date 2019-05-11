@@ -41,7 +41,10 @@ jobs:
       - *attach_workspace
       - run:
           name: unit tests
-          command: yarn test --maxWorkers 2
+          command: yarn test --maxWorkers 2 --coverage --coverageReporters lcov
+      - run:
+          name: Codecov Bash Upload
+          command: bash <(curl -s https://codecov.io/bash)
 
   lint:
     executor: nodejs
