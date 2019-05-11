@@ -44,7 +44,7 @@ jobs:
           command: yarn test --maxWorkers 2 --coverage --coverageReporters lcov
       - run:
           name: Codecov Bash Upload
-          command: bash <(curl -s https://codecov.io/bash)
+          command: bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverage reports"
 
   lint:
     executor: nodejs
