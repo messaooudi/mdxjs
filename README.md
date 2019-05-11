@@ -1,1 +1,1 @@
-# MDXjs ![CircleCI branch](https://img.shields.io/circleci/project/github/messaooudi/mdxjs/master.svg?label=Build%20Status)
+# MDXjs ![CircleCI branch](https://img.shields.io/circleci/project/github/messaooudi/mdxjs/master.svg?label=Build%20Status) [![codecov](https://codecov.io/gh/messaooudi/mdxjs/branch/master/graph/badge.svg)](https://codecov.io/gh/messaooudi/mdxjs)
