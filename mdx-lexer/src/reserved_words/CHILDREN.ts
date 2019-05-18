@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const CHILDREN: ITokenConfig = {
-    name: "CHILDREN key word",
+    name: "CHILDREN",
     label: "children",
     pattern: /CHILDREN/
 };

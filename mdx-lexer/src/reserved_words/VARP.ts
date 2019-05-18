@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const VARP: ITokenConfig = {
-    name: "VARP key word",
+    name: "VARP",
     label: "varp",
     pattern: /VARP/
 };

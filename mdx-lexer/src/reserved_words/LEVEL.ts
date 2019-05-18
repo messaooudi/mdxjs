@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const LEVEL: ITokenConfig = {
-    name: "LEVEL key word",
+    name: "LEVEL",
     label: "level",
     pattern: /LEVEL/
 };

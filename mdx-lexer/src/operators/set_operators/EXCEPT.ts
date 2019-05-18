@@ -1,7 +1,7 @@
 import { ITokenConfig, createToken } from "chevrotain"
 
 const EXCEPT: ITokenConfig = {
-    name: "EXCEPT set operator",
+    name: "EXCEPT set",
     label: "except",
     pattern: /-/
 };

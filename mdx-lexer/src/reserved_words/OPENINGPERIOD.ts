@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const OPENINGPERIOD: ITokenConfig = {
-    name: "OPENINGPERIOD key word",
+    name: "OPENINGPERIOD",
     label: "opening period",
     pattern: /OPENINGPERIOD/
 };

@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const RELATIVE: ITokenConfig = {
-    name: "RELATIVE key word",
+    name: "RELATIVE",
     label: "relative",
     pattern: /RELATIVE/
 };

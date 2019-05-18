@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const BOTTOMCOUNT: ITokenConfig = {
-    name: "BOTTOMCOUNT key word",
+    name: "BOTTOMCOUNT",
     label: "bottom count",
     pattern: /BOTTOMCOUNT/
 };

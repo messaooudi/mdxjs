@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const PROPERTIES: ITokenConfig = {
-    name: "PROPERTIES key word",
+    name: "PROPERTIES",
     label: "properties",
     pattern: /PROPERTIES/
 };

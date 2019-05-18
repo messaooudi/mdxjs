@@ -1,7 +1,7 @@
 import { ITokenConfig, createToken } from "chevrotain";
 
 const RIGHT_PARENTHESIS: ITokenConfig = {
-    name: "right parenthesis symbol",
+    name: "RIGHT_PARENTHESIS",
     label: "right parenthesis",
     pattern: /\)/
 };

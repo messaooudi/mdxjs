@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const ROOT: ITokenConfig = {
-    name: "ROOT key word",
+    name: "ROOT",
     label: "root",
     pattern: /ROOT/
 };

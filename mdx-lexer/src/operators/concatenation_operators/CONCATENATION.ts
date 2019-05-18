@@ -1,7 +1,7 @@
 import { ITokenConfig, createToken } from "chevrotain";
 
 const CONCATENATION: ITokenConfig = {
-    name: "CONCATENATION operator",
+    name: "CONCATENATION",
     label: "concatenation",
     pattern: /\+/,
 };

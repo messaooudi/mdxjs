@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const ISGENERATION: ITokenConfig = {
-    name: "ISGENERATION key word",
+    name: "ISGENERATION",
     label: "is generation",
     pattern: /ISGENERATION/
 };

@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const EXTRACT: ITokenConfig = {
-    name: "EXTRACT key word",
+    name: "EXTRACT",
     label: "extract",
     pattern: /EXTRACT/
 };

@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const STRTOVAL: ITokenConfig = {
-    name: "STRTOVAL key word",
+    name: "STRTOVAL",
     label: "string to value",
     pattern: /STRTOVAL/
 };

@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const ACTIONPARAMETERSET: ITokenConfig = {
-    name: "ACTIONPARAMETERSET key word",
+    name: "ACTIONPARAMETERSET",
     label: "action parameter set",
     pattern: /ACTIONPARAMETERSET/
 };

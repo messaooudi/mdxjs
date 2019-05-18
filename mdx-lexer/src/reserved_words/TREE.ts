@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const TREE: ITokenConfig = {
-    name: "TREE key word",
+    name: "TREE",
     label: "tree",
     pattern: /TREE/
 };

@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const AGGREGATE: ITokenConfig = {
-    name: "AGGREGATE key word",
+    name: "AGGREGATE",
     label: "aggregate",
     pattern: /AGGREGATE/
 };

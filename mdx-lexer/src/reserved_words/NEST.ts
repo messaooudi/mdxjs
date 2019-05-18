@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const NEST: ITokenConfig = {
-    name: "NEST key word",
+    name: "NEST",
     label: "nest",
     pattern: /NEST/
 };

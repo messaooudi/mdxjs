@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const DRILLDOWNMEMBER: ITokenConfig = {
-    name: "DRILLDOWNMEMBER key word",
+    name: "DRILLDOWNMEMBER",
     label: "drilldown member",
     pattern: /DRILLDOWNMEMBER/
 };

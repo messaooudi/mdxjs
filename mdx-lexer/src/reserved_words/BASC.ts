@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const BASC: ITokenConfig = {
-    name: "BASC key word",
+    name: "BASC",
     label: "basc",
     pattern: /BASC/
 };

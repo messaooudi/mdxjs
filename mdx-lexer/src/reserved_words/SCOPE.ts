@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const SCOPE: ITokenConfig = {
-    name: "SCOPE key word",
+    name: "SCOPE",
     label: "scope",
     pattern: /SCOPE/
 };

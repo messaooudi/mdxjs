@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const SUM: ITokenConfig = {
-    name: "SUM key word",
+    name: "SUM",
     label: "sum",
     pattern: /SUM/
 };

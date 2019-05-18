@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const FOR: ITokenConfig = {
-    name: "FOR key word",
+    name: "FOR",
     label: "for",
     pattern: /FOR/
 };

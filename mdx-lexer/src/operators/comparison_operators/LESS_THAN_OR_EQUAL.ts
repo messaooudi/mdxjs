@@ -1,7 +1,7 @@
 import { ITokenConfig, createToken } from "chevrotain"
 
 const LESS_THAN_OR_EQUAL: ITokenConfig = {
-    name: "LESS_THAN_OR_EQUAL comparison operator",
+    name: "LESS_THAN_OR_EQUAL",
     label: "less than or equal",
     pattern: /<=/
 };

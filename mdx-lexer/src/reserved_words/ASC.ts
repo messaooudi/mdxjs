@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const ASC: ITokenConfig = {
-    name: "ASC key word",
+    name: "ASC",
     label: "asc",
     pattern: /ASC/
 };

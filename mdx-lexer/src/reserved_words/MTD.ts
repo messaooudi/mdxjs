@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const MTD: ITokenConfig = {
-    name: "MTD key word",
+    name: "MTD",
     label: "mtd",
     pattern: /MTD/
 };

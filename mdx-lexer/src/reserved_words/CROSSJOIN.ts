@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const CROSSJOIN: ITokenConfig = {
-    name: "CROSSJOIN key word",
+    name: "CROSSJOIN",
     label: "cross join",
     pattern: /CROSSJOIN/
 };

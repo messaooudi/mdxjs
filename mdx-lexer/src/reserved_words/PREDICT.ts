@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const PREDICT: ITokenConfig = {
-    name: "PREDICT key word",
+    name: "PREDICT",
     label: "predict",
     pattern: /PREDICT/
 };

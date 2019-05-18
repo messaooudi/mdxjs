@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const SETTOARRAY: ITokenConfig = {
-    name: "SETTOARRAY key word",
+    name: "SETTOARRAY",
     label: "set to array",
     pattern: /SETTOARRAY/
 };

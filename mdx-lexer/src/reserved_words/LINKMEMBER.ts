@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const LINKMEMBER: ITokenConfig = {
-    name: "LINKMEMBER key word",
+    name: "LINKMEMBER",
     label: "link member",
     pattern: /LINKMEMBER/
 };

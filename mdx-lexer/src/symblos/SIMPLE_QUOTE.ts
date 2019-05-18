@@ -1,7 +1,7 @@
 import { ITokenConfig, createToken } from "chevrotain";
 
 const SIMPLE_QUOTE: ITokenConfig = {
-    name: "simple quote symbol",
+    name: "SIMPLE_QUOTE",
     label: "simple quote",
     pattern: /\'/
 };

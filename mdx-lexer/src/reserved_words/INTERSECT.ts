@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const INTERSECT: ITokenConfig = {
-    name: "INTERSECT key word",
+    name: "INTERSECT",
     label: "intersect",
     pattern: /INTERSECT/
 };

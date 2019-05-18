@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const INCLUDEEMPTY: ITokenConfig = {
-    name: "INCLUDEEMPTY key word",
+    name: "INCLUDEEMPTY",
     label: "include empty",
     pattern: /INCLUDEEMPTY/
 };

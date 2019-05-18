@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const WHERE: ITokenConfig = {
-    name: "WHERE key word",
+    name: "WHERE",
     label: "where",
     pattern: /WHERE/
 };

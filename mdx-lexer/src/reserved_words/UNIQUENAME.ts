@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const UNIQUENAME: ITokenConfig = {
-    name: "UNIQUENAME key word",
+    name: "UNIQUENAME",
     label: "unique name",
     pattern: /UNIQUENAME/
 };

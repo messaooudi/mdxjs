@@ -1,7 +1,7 @@
 import { ITokenConfig, createToken } from "chevrotain";
 
 const AMPERSAND: ITokenConfig = {
-    name: "ampersand symbol",
+    name: "ampersand",
     label: "ampersand",
     pattern: /&/
 };

@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const NAMETOSET: ITokenConfig = {
-    name: "NAMETOSET key word",
+    name: "NAMETOSET",
     label: "name to set",
     pattern: /NAMETOSET/
 };

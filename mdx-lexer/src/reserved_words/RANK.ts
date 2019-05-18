@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const RANK: ITokenConfig = {
-    name: "RANK key word",
+    name: "RANK",
     label: "rank",
     pattern: /RANK/
 };

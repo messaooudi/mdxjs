@@ -1,7 +1,7 @@
 import { ITokenConfig,createToken } from "chevrotain"
 
 const DIVIDE: ITokenConfig = {
-    name: "DIVIDE arethmetic operator",
+    name: "DIVIDE",
     label: "divide",
     pattern: /\//
 };

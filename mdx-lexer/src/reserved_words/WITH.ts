@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const WITH: ITokenConfig = {
-    name: "WITH key word",
+    name: "WITH",
     label: "with",
     pattern: /WITH/
 };

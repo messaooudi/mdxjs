@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const IIF: ITokenConfig = {
-    name: "IIF key word",
+    name: "IIF",
     label: "iif",
     pattern: /IIF/
 };

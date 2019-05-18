@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const UNION: ITokenConfig = {
-    name: "UNION key word",
+    name: "UNION",
     label: "union",
     pattern: /UNION/
 };

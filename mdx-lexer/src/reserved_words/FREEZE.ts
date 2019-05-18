@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const FREEZE: ITokenConfig = {
-    name: "FREEZE key word",
+    name: "FREEZE",
     label: "freeze",
     pattern: /FREEZE/
 };

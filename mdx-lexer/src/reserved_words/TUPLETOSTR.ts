@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const TUPLETOSTR: ITokenConfig = {
-    name: "TUPLETOSTR key word",
+    name: "TUPLETOSTR",
     label: "tuple to string",
     pattern: /TUPLETOSTR/
 };

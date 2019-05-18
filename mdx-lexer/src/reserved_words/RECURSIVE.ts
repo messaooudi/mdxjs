@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const RECURSIVE: ITokenConfig = {
-    name: "RECURSIVE key word",
+    name: "RECURSIVE",
     label: "recursive",
     pattern: /RECURSIVE/
 };

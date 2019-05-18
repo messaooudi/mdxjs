@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const HIERARCHY: ITokenConfig = {
-    name: "HIERARCHY key word",
+    name: "HIERARCHY",
     label: "hierarchy",
     pattern: /HIERARCHY/
 };

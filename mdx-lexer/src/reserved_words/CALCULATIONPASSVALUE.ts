@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const CALCULATIONPASSVALUE: ITokenConfig = {
-    name: "CALCULATIONPASSVALUE key word",
+    name: "CALCULATIONPASSVALUE",
     label: "calculation pass value",
     pattern: /CALCULATIONPASSVALUE/
 };

@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const TOPCOUNT: ITokenConfig = {
-    name: "TOPCOUNT key word",
+    name: "TOPCOUNT",
     label: "top count",
     pattern: /TOPCOUNT/
 };

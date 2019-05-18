@@ -1,7 +1,7 @@
 import { ITokenConfig,createToken } from "chevrotain"
 
 const AND: ITokenConfig = {
-    name: "AND bitwise operator",
+    name: "AND bitwise",
     label: "and",
     pattern: /AND/
 };

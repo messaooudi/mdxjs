@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const END: ITokenConfig = {
-    name: "END key word",
+    name: "END",
     label: "end",
     pattern: /END/
 };

@@ -1,7 +1,7 @@
 import { ITokenConfig,createToken } from "chevrotain"
 
 const POWER: ITokenConfig = {
-    name: "POWER arethmetic operator",
+    name: "POWER",
     label: "power",
     pattern: /\^/
 };

@@ -1,7 +1,7 @@
 import { ITokenConfig,createToken } from "chevrotain"
 
 const ASSIGNEMENT: ITokenConfig = {
-    name: "ASSIGNEMENT operator",
+    name: "ASSIGNEMENT",
     label: "assignement",
     pattern: /=/
 };

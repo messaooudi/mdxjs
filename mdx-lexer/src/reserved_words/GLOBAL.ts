@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const GLOBAL: ITokenConfig = {
-    name: "GLOBAL key word",
+    name: "GLOBAL",
     label: "global",
     pattern: /GLOBAL/
 };

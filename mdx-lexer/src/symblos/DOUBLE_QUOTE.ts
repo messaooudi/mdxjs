@@ -1,7 +1,7 @@
 import { ITokenConfig, createToken } from "chevrotain";
 
 const DOUBLE_QUOTE: ITokenConfig = {
-    name: "double quote symbol",
+    name: "DOUBLE_QUOTE",
     label: "double quote",
     pattern: /\"/
 };

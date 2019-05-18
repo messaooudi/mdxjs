@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const CURRENTCUBE: ITokenConfig = {
-    name: "CURRENTCUBE key word",
+    name: "CURRENTCUBE",
     label: "current cube",
     pattern: /CURRENTCUBE/
 };

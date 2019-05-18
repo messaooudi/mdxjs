@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const STRTOMEMBER: ITokenConfig = {
-    name: "STRTOMEMBER key word",
+    name: "STRTOMEMBER",
     label: "string to member",
     pattern: /STRTOMEMBER/
 };

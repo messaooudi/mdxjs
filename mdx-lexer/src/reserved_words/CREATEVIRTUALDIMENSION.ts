@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const CREATEVIRTUALDIMENSION: ITokenConfig = {
-    name: "CREATEVIRTUALDIMENSION key word",
+    name: "CREATEVIRTUALDIMENSION",
     label: "create virtual dimension",
     pattern: /CREATEVIRTUALDIMENSION/
 };

@@ -2,7 +2,7 @@ import { ITokenConfig, createToken } from "chevrotain"
 import LESS_THAN_OR_EQUAL from "./LESS_THAN_OR_EQUAL"
 
 const LESS_THAN: ITokenConfig = {
-    name: "LESS_THAN comparison operator",
+    name: "LESS_THAN",
     label: "less than",
     pattern: /</,
     longer_alt : LESS_THAN_OR_EQUAL

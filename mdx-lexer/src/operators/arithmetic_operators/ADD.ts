@@ -3,7 +3,7 @@ import concatenation_operators from "../concatenation_operators";
 import unary_operators from "../unary_operators";
 
 const ADD: ITokenConfig = {
-    name: "ADD arethmetic operator",
+    name: "ADD",
     label: "add",
     pattern: /\+/,
     categories : [concatenation_operators.CONCATENATION,unary_operators.POSITIVE]

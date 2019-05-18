@@ -1,7 +1,7 @@
 import { ITokenConfig, createToken } from "chevrotain";
 
 const RIGHT_BRACKET: ITokenConfig = {
-    name: "right bracket symbol",
+    name: "RIGHT_BRACKET",
     label: "right bracket",
     pattern: /]/
 };

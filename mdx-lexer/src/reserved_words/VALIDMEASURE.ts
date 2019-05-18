@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const VALIDMEASURE: ITokenConfig = {
-    name: "VALIDMEASURE key word",
+    name: "VALIDMEASURE",
     label: "valid measure",
     pattern: /VALIDMEASURE/
 };

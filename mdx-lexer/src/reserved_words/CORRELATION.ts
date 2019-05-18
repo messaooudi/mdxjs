@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const CORRELATION: ITokenConfig = {
-    name: "CORRELATION key word",
+    name: "CORRELATION",
     label: "coprelation",
     pattern: /CORRELATION/
 };

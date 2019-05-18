@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const AND: ITokenConfig = {
-    name: "AND key word",
+    name: "AND",
     label: "and",
     pattern: /AND/
 };

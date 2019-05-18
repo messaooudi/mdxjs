@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const POST: ITokenConfig = {
-    name: "POST key word",
+    name: "POST",
     label: "post",
     pattern: /POST/
 };

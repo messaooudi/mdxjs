@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const STDEV: ITokenConfig = {
-    name: "STDEV key word",
+    name: "STDEV",
     label: "stdev",
     pattern: /STDEV/
 };

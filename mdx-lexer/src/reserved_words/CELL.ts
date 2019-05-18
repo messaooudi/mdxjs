@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const CELL: ITokenConfig = {
-    name: "CELL key word",
+    name: "CELL",
     label: "cell",
     pattern: /CELL/
 };

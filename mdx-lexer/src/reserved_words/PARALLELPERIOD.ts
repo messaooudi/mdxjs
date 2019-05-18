@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const PARALLELPERIOD: ITokenConfig = {
-    name: "PARALLELPERIOD key word",
+    name: "PARALLELPERIOD",
     label: "parallel period",
     pattern: /PARALLELPERIOD/
 };

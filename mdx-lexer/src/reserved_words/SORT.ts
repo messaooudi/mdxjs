@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const SORT: ITokenConfig = {
-    name: "SORT key word",
+    name: "SORT",
     label: "sort",
     pattern: /SORT/
 };

@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const XOR: ITokenConfig = {
-    name: "XOR key word",
+    name: "XOR",
     label: "xor",
     pattern: /XOR/
 };

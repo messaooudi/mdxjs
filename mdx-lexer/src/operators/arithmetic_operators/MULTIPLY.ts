@@ -1,7 +1,7 @@
 import { ITokenConfig,createToken } from "chevrotain"
 
 const MULTIPLY: ITokenConfig = {
-    name: "MULTIPLY arethmetic operator",
+    name: "MULTIPLY",
     label: "multiply",
     pattern: /\*/
 };

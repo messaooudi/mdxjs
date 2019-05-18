@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const COVARIANCE: ITokenConfig = {
-    name: "COVARIANCE key word",
+    name: "COVARIANCE",
     label: "covariance",
     pattern: /COVARIANCE/
 };

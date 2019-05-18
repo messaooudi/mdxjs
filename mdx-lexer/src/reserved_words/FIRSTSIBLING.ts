@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const FIRSTSIBLING: ITokenConfig = {
-    name: "FIRSTSIBLING key word",
+    name: "FIRSTSIBLING",
     label: "first sibling",
     pattern: /FIRSTSIBLING/
 };

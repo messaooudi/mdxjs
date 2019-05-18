@@ -1,7 +1,7 @@
 import { ITokenConfig, createToken } from "chevrotain";
 
 const COLON: ITokenConfig = {
-    name: "colon symbol",
+    name: "colon",
     label: "colon",
     pattern: /:/
 };

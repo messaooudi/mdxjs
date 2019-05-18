@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const SET: ITokenConfig = {
-    name: "SET key word",
+    name: "SET",
     label: "set",
     pattern: /SET/
 };

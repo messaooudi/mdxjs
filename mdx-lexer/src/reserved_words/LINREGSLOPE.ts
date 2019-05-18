@@ -1,7 +1,7 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const LINREGSLOPE: ITokenConfig = {
-    name: "LINREGSLOPE key word",
+    name: "LINREGSLOPE",
     label: "linreg slope",
     pattern: /LINREGSLOPE/
 };
