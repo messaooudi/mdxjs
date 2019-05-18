@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const ISEMPTY: ITokenConfig = {
-    label: "ISEMPTY key word",
-    name: "is empty",
+    name: "ISEMPTY key word",
+    label: "is empty",
     pattern: /ISEMPTY/
 };
 

@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const VARIANCE: ITokenConfig = {
-    label: "VARIANCE key word",
-    name: "variance",
+    name: "VARIANCE key word",
+    label: "variance",
     pattern: /VARIANCE/
 };
 

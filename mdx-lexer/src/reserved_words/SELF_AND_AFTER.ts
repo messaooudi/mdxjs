@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const SELF_AND_AFTER: ITokenConfig = {
-    label: "SELF_AND_AFTER key word",
-    name: "self and after",
+    name: "SELF_AND_AFTER key word",
+    label: "self and after",
     pattern: /SELF_AND_AFTER/
 };
 

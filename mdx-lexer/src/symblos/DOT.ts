@@ -2,8 +2,8 @@ import { ITokenConfig, createToken } from "chevrotain";
 import numbers from "../numbers"
 
 const DOT: ITokenConfig = {
-    label: "dot symbol",
-    name: "dot",
+    name: "dot symbol",
+    label: "dot",
     pattern: /\./,
     longer_alt : numbers.DECIMAL
 };

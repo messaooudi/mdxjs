@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const BDESC: ITokenConfig = {
-    label: "BDESC key word",
-    name: "bdesc",
+    name: "BDESC key word",
+    label: "bdesc",
     pattern: /BDESC/
 };
 

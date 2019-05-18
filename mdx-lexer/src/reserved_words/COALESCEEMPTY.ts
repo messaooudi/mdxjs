@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const COALESCEEMPTY: ITokenConfig = {
-    label: "COALESCEEMPTY key word",
-    name: "coalesce empty",
+    name: "COALESCEEMPTY key word",
+    label: "coalesce empty",
     pattern: /COALESCEEMPTY/
 };
 

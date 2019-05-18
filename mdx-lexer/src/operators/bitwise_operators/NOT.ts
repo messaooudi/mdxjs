@@ -1,8 +1,8 @@
 import { ITokenConfig,createToken } from "chevrotain"
 
 const NOT: ITokenConfig = {
-    label: "NOT bitwise operator",
-    name: "not",
+    name: "NOT bitwise operator",
+    label: "not",
     pattern: /NOT/
 };
 

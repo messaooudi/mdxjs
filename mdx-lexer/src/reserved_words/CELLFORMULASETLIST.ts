@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const CELLFORMULASETLIST: ITokenConfig = {
-    label: "CELLFORMULASETLIST key word",
-    name: "cell formula as set list",
+    name: "CELLFORMULASETLIST key word",
+    label: "cell formula as set list",
     pattern: /CELLFORMULASETLIST/
 };
 

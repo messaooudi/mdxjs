@@ -3,8 +3,8 @@ import concatenation_operators from "../concatenation_operators";
 import unary_operators from "../unary_operators";
 
 const ADD: ITokenConfig = {
-    label: "ADD arethmetic operator",
-    name: "add",
+    name: "ADD arethmetic operator",
+    label: "add",
     pattern: /\+/,
     categories : [concatenation_operators.CONCATENATION,unary_operators.POSITIVE]
 };

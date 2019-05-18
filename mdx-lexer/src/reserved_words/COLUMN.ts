@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const COLUMN: ITokenConfig = {
-    label: "COLUMN key word",
-    name: "column",
+    name: "COLUMN key word",
+    label: "column",
     pattern: /COLUMN/
 };
 

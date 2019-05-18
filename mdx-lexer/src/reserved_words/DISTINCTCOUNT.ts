@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const DISTINCTCOUNT: ITokenConfig = {
-    label: "DISTINCTCOUNT key word",
-    name: "distinct count",
+    name: "DISTINCTCOUNT key word",
+    label: "distinct count",
     pattern: /DISTINCTCOUNT/
 };
 

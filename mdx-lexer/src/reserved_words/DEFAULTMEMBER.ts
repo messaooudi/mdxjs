@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const DEFAULTMEMBER: ITokenConfig = {
-    label: "DEFAULTMEMBER key word",
-    name: "default member",
+    name: "DEFAULTMEMBER key word",
+    label: "default member",
     pattern: /DEFAULTMEMBER/
 };
 

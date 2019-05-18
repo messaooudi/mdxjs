@@ -1,8 +1,8 @@
 import { ITokenConfig, Lexer, createToken } from "chevrotain";
 
 const WHITE_SPACE: ITokenConfig = {
-    label: "WHITE_SPACE",
-    name: "white space",
+    name: "WHITE_SPACE",
+    label: "white space",
     pattern: /\s+/,
     group: Lexer.SKIPPED
 };

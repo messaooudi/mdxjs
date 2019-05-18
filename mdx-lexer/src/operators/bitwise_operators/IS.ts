@@ -1,8 +1,8 @@
 import { ITokenConfig,createToken } from "chevrotain"
 
 const IS: ITokenConfig = {
-    label: "IS bitwise operator",
-    name: "is",
+    name: "IS bitwise operator",
+    label: "is",
     pattern: /IS/
 };
 

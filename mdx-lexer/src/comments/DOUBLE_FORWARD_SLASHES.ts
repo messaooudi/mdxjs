@@ -1,8 +1,8 @@
 import { ITokenConfig, Lexer, createToken } from "chevrotain";
 
 const DOUBLE_FORWARD_SLASHES: ITokenConfig = {
-    label: "DOUBLE_FORWARD_SLASHES comment",
-    name: "double forward slashes //",
+    name: "DOUBLE_FORWARD_SLASHES comment",
+    label: "double forward slashes //",
     pattern: /\/\/.*/,
     group: Lexer.SKIPPED
 };

@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const MEDIAN: ITokenConfig = {
-    label: "MEDIAN key word",
-    name: "median",
+    name: "MEDIAN key word",
+    label: "median",
     pattern: /MEDIAN/
 };
 

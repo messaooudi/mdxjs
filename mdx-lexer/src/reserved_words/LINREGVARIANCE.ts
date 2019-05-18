@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const LINREGVARIANCE: ITokenConfig = {
-    label: "LINREGVARIANCE key word",
-    name: "linreg variance",
+    name: "LINREGVARIANCE key word",
+    label: "linreg variance",
     pattern: /LINREGVARIANCE/
 };
 

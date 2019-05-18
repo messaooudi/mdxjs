@@ -1,8 +1,8 @@
 import { ITokenConfig, createToken } from "chevrotain"
 
 const XOR: ITokenConfig = {
-    label: "XOR bitwise operator",
-    name: "xor",
+    name: "XOR bitwise operator",
+    label: "xor",
     pattern: /XOR/
 };
 

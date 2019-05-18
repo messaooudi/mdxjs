@@ -1,8 +1,8 @@
 import { ITokenConfig, Lexer, createToken } from "chevrotain";
 
 const DOUBLE_HYPHENS: ITokenConfig = {
-    label: "DOUBLE_HYPHENS comment",
-    name: "double hyphens --",
+    name: "DOUBLE_HYPHENS comment",
+    label: "double hyphens --",
     pattern: /--.*/,
     group: Lexer.SKIPPED
 };

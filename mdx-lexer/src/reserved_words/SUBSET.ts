@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const SUBSET: ITokenConfig = {
-    label: "SUBSET key word",
-    name: "subset",
+    name: "SUBSET key word",
+    label: "subset",
     pattern: /SUBSET/
 };
 

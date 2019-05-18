@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const DROP: ITokenConfig = {
-    label: "DROP key word",
-    name: "drop",
+    name: "DROP key word",
+    label: "drop",
     pattern: /DROP/
 };
 

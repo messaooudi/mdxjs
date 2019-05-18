@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const AXIS: ITokenConfig = {
-    label: "AXIS key word",
-    name: "axis",
+    name: "AXIS key word",
+    label: "axis",
     pattern: /AXIS/
 };
 

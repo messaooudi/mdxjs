@@ -1,8 +1,8 @@
 import { ITokenConfig, createToken } from "chevrotain";
 
 const COMMA: ITokenConfig = {
-    label: "comma symbol",
-    name: "comma",
+    name: "comma symbol",
+    label: "comma",
     pattern: /,/
 };
 

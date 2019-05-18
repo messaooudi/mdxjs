@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const PAGES: ITokenConfig = {
-    label: "PAGES key word",
-    name: "pages",
+    name: "PAGES key word",
+    label: "pages",
     pattern: /PAGES/
 };
 

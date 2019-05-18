@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const QTD: ITokenConfig = {
-    label: "QTD key word",
-    name: "qtd",
+    name: "QTD key word",
+    label: "qtd",
     pattern: /QTD/
 };
 

@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const OR: ITokenConfig = {
-    label: "OR key word",
-    name: "or",
+    name: "OR key word",
+    label: "or",
     pattern: /OR/
 };
 

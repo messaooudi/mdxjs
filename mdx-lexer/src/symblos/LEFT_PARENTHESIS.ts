@@ -1,8 +1,8 @@
 import { ITokenConfig, createToken } from "chevrotain";
 
 const LEFT_PARENTHESIS: ITokenConfig = {
-    label: "left parenthesis symbol",
-    name: "left parenthesis",
+    name: "left parenthesis symbol",
+    label: "left parenthesis",
     pattern: /\(/
 };
 

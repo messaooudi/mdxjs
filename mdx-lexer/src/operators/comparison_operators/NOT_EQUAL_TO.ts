@@ -1,8 +1,8 @@
 import { ITokenConfig,createToken } from "chevrotain"
 
 const NOT_EQUAL_TO: ITokenConfig = {
-    label: "NOT_EQUAL_TO comparison operator",
-    name: "not equal to",
+    name: "NOT_EQUAL_TO comparison operator",
+    label: "not equal to",
     pattern: /<>/
 };
 

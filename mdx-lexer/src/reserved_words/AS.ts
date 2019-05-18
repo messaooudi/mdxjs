@@ -2,8 +2,8 @@ import { ITokenConfig , createToken } from "chevrotain";;
 import ASC from "./ASC";
 
 const AS: ITokenConfig = {
-    label: "AS key word",
-    name: "as",
+    name: "AS key word",
+    label: "as",
     pattern: /AS/,
     longer_alt : ASC
 };

@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const TOPPERCENT: ITokenConfig = {
-    label: "TOPPERCENT key word",
-    name: "top percent",
+    name: "TOPPERCENT key word",
+    label: "top percent",
     pattern: /TOPPERCENT/
 };
 

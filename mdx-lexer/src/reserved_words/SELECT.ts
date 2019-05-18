@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const SELECT: ITokenConfig = {
-    label: "SELECT key word",
-    name: "select",
+    name: "SELECT key word",
+    label: "select",
     pattern: /SELECT/
 };
 

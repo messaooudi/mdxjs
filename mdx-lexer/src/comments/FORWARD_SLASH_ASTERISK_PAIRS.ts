@@ -1,8 +1,8 @@
 import { ITokenConfig, Lexer, createToken } from "chevrotain";
 
 const FORWARD_SLASH_ASTERISK_PAIRS: ITokenConfig = {
-    label: "FORWARD_SLASH_ASTERISK_PAIRS comment",
-    name: "forward slash asterisk pairs /* */",
+    name: "FORWARD_SLASH_ASTERISK_PAIRS comment",
+    label: "forward slash asterisk pairs /* */",
     pattern: /\/\*[^\*\/]*\*\//,
     group: Lexer.SKIPPED
 };

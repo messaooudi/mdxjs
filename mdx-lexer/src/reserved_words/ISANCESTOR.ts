@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const ISANCESTOR: ITokenConfig = {
-    label: "ISANCESTOR key word",
-    name: "is ancestor",
+    name: "ISANCESTOR key word",
+    label: "is ancestor",
     pattern: /ISANCESTOR/
 };
 

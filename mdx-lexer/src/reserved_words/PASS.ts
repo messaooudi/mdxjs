@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const PASS: ITokenConfig = {
-    label: "PASS key word",
-    name: "pass",
+    name: "PASS key word",
+    label: "pass",
     pattern: /PASS/
 };
 

@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const LASTCHILD: ITokenConfig = {
-    label: "LASTCHILD key word",
-    name: "last child",
+    name: "LASTCHILD key word",
+    label: "last child",
     pattern: /LASTCHILD/
 };
 

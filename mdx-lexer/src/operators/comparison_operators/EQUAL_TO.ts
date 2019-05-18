@@ -2,8 +2,8 @@ import { ITokenConfig, createToken } from "chevrotain";
 import ASSIGNMENT from "../assignment_operators"
 
 const EQUAL_TO: ITokenConfig = {
-    label: "EQUAL_TO comparison operator",
-    name: "equal to",
+    name: "EQUAL_TO comparison operator",
+    label: "equal to",
     pattern: /=/,
     categories : [ASSIGNMENT.ASSIGNMENT],
 };

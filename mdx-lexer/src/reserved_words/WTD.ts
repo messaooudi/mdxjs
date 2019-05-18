@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const WTD: ITokenConfig = {
-    label: "WTD key word",
-    name: "wtd",
+    name: "WTD key word",
+    label: "wtd",
     pattern: /WTD/
 };
 

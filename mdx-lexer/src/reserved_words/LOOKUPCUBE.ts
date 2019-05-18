@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const LOOKUPCUBE: ITokenConfig = {
-    label: "LOOKUPCUBE key word",
-    name: "lookup cube",
+    name: "LOOKUPCUBE key word",
+    label: "lookup cube",
     pattern: /LOOKUPCUBE/
 };
 

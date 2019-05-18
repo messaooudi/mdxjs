@@ -1,8 +1,8 @@
 import { ITokenConfig, createToken } from "chevrotain";
 
 const DECIMAL: ITokenConfig = {
-    label: "decimal number",
-    name: "decimal",
+    name: "decimal number",
+    label: "decimal",
     pattern: /\d*\.\d+(E(\+|\-)?\d+)?/
 };
 

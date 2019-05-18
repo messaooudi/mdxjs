@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const ERROR: ITokenConfig = {
-    label: "ERROR key word",
-    name: "error",
+    name: "ERROR key word",
+    label: "error",
     pattern: /ERROR/
 };
 

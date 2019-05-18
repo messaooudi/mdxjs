@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const BOTTOMPERCENT: ITokenConfig = {
-    label: "BOTTOMPERCENT key word",
-    name: "bottom precent",
+    name: "BOTTOMPERCENT key word",
+    label: "bottom precent",
     pattern: /BOTTOMPERCENT/
 };
 

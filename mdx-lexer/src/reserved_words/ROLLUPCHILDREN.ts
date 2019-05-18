@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const ROLLUPCHILDREN: ITokenConfig = {
-    label: "ROLLUPCHILDREN key word",
-    name: "rollup children",
+    name: "ROLLUPCHILDREN key word",
+    label: "rollup children",
     pattern: /ROLLUPCHILDREN/
 };
 
