@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const CACHE: ITokenConfig = {
-    label: "CACHE key word",
-    name: "cache",
+    name: "CACHE",
+    label: "cache",
     pattern: /CACHE/
 };
 

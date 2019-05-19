@@ -1,8 +1,8 @@
 import { ITokenConfig, createToken } from "chevrotain";
 
 const SEMICOLON: ITokenConfig = {
-    label: "semicolon symbol",
     name: "semicolon",
+    label: "semicolon",
     pattern: /;/
 };
 

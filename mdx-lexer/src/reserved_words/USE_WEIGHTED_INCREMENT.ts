@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const USE_WEIGHTED_INCREMENT: ITokenConfig = {
-    label: "USE_WEIGHTED_INCREMENT key word",
-    name: "use weighted increment",
+    name: "USE_WEIGHTED_INCREMENT",
+    label: "use weighted increment",
     pattern: /USE_WEIGHTED_INCREMENT/
 };
 

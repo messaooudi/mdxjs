@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const TOGGLEDRILLSTATE: ITokenConfig = {
-    label: "TOGGLEDRILLSTATE key word",
-    name: "toggle drill state",
+    name: "TOGGLEDRILLSTATE",
+    label: "toggle drill state",
     pattern: /TOGGLEDRILLSTATE/
 };
 

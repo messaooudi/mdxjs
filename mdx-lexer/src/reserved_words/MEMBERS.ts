@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const MEMBERS: ITokenConfig = {
-    label: "MEMBERS key word",
-    name: "members",
+    name: "MEMBERS",
+    label: "members",
     pattern: /MEMBERS/
 };
 

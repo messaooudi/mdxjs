@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const USE_EQUAL_ALLOCATION: ITokenConfig = {
-    label: "USE_EQUAL_ALLOCATION key word",
-    name: "use equal allocation",
+    name: "USE_EQUAL_ALLOCATION",
+    label: "use equal allocation",
     pattern: /USE_EQUAL_ALLOCATION/
 };
 

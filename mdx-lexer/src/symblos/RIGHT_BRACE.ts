@@ -1,8 +1,8 @@
 import { ITokenConfig, createToken } from "chevrotain";
 
 const RIGHT_BRACE: ITokenConfig = {
-    label: "right brace symbol",
-    name: "right brace",
+    name: "RIGHT_BRACE",
+    label: "right brace",
     pattern: /}/
 };
 

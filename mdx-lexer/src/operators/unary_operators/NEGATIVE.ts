@@ -1,8 +1,8 @@
 import { ITokenConfig, createToken } from "chevrotain"
 
 const NEGATIVE: ITokenConfig = {
-    label: " NEGATIVE unary operator",
-    name: "negative",
+    name: " NEGATIVE unary",
+    label: "negative",
     pattern: /-/
 };
 

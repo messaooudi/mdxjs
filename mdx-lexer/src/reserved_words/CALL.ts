@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const CALL: ITokenConfig = {
-    label: "CALL key word",
-    name: "call",
+    name: "CALL",
+    label: "call",
     pattern: /CALL/
 };
 

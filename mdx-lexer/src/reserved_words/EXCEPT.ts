@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const EXCEPT: ITokenConfig = {
-    label: "EXCEPT key word",
-    name: "except",
+    name: "EXCEPT",
+    label: "except",
     pattern: /EXCEPT/
 };
 

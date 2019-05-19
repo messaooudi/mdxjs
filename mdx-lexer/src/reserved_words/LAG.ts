@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const LAG: ITokenConfig = {
-    label: "LAG key word",
-    name: "lag",
+    name: "LAG",
+    label: "lag",
     pattern: /LAG/
 };
 

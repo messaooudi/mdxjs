@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const BEFORE_AND_AFTER: ITokenConfig = {
-    label: "BEFORE_AND_AFTER key word",
-    name: "before and after",
+    name: "BEFORE_AND_AFTER",
+    label: "before and after",
     pattern: /BEFORE_AND_AFTER/
 };
 

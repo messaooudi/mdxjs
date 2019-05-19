@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const PERIODSTODATE: ITokenConfig = {
-    label: "PERIODSTODATE key word",
-    name: "periods to date",
+    name: "PERIODSTODATE",
+    label: "periods to date",
     pattern: /PERIODSTODATE/
 };
 

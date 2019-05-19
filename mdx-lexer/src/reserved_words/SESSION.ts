@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const SESSION: ITokenConfig = {
-    label: "SESSION key word",
-    name: "session",
+    name: "SESSION",
+    label: "session",
     pattern: /SESSION/
 };
 

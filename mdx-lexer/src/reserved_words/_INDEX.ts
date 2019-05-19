@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const INDEX: ITokenConfig = {
-    label: "INDEX key word",
-    name: "index",
+    name: "INDEX",
+    label: "index",
     pattern: /INDEX/
 };
 

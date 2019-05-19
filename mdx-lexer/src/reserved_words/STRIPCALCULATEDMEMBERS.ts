@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const STRIPCALCULATEDMEMBERS: ITokenConfig = {
-    label: "STRIPCALCULATEDMEMBERS key word",
-    name: "strip calculated members",
+    name: "STRIPCALCULATEDMEMBERS",
+    label: "strip calculated members",
     pattern: /STRIPCALCULATEDMEMBERS/
 };
 

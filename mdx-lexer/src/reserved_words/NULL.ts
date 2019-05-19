@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const NULL: ITokenConfig = {
-    label: "NULL key word",
-    name: "null",
+    name: "NULL",
+    label: "null",
     pattern: /NULL/
 };
 

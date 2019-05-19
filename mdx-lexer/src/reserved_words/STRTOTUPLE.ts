@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const STRTOTUPLE: ITokenConfig = {
-    label: "STRTOTUPLE key word",
-    name: "string to tuple",
+    name: "STRTOTUPLE",
+    label: "string to tuple",
     pattern: /STRTOTUPLE/
 };
 

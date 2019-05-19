@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const MAX: ITokenConfig = {
-    label: "MAX key word",
-    name: "max",
+    name: "MAX",
+    label: "max",
     pattern: /MAX/
 };
 

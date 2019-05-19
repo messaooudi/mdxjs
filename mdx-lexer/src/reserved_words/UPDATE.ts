@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const UPDATE: ITokenConfig = {
-    label: "UPDATE key word",
-    name: "update",
+    name: "UPDATE",
+    label: "update",
     pattern: /UPDATE/
 };
 

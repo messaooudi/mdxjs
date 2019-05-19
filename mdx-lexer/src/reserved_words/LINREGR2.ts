@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const LINREGR2: ITokenConfig = {
-    label: "LINREGR2 key word",
-    name: "linreg r2",
+    name: "LINREGR2",
+    label: "linreg r2",
     pattern: /LINREGR2/
 };
 

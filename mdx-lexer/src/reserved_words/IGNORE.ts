@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const IGNORE: ITokenConfig = {
-    label: "IGNORE key word",
-    name: "ignore",
+    name: "IGNORE",
+    label: "ignore",
     pattern: /IGNORE/
 };
 

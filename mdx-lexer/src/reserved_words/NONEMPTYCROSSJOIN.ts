@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const NONEMPTYCROSSJOIN: ITokenConfig = {
-    label: "NONEMPTYCROSSJOIN key word",
-    name: "non empty crossjoin",
+    name: "NONEMPTYCROSSJOIN",
+    label: "non empty crossjoin",
     pattern: /NONEMPTYCROSSJOIN/
 };
 

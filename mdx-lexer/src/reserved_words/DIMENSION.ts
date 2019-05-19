@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const DIMENSION: ITokenConfig = {
-    label: "DIMENSION key word",
-    name: "dimension",
+    name: "DIMENSION",
+    label: "dimension",
     pattern: /DIMENSION/
 };
 

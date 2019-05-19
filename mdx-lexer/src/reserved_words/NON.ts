@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const NON: ITokenConfig = {
-    label: "NON key word",
-    name: "non",
+    name: "NON",
+    label: "non",
     pattern: /NON/
 };
 

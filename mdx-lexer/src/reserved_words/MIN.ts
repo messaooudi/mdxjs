@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const MIN: ITokenConfig = {
-    label: "MIN key word",
-    name: "min",
+    name: "MIN",
+    label: "min",
     pattern: /MIN/
 };
 

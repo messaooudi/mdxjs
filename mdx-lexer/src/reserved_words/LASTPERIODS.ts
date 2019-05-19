@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const LASTPERIODS: ITokenConfig = {
-    label: "LASTPERIODS key word",
-    name: "last periods",
+    name: "LASTPERIODS",
+    label: "last periods",
     pattern: /LASTPERIODS/
 };
 

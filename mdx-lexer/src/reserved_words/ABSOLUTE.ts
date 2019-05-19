@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const ABSOLUTE: ITokenConfig = {
-    label: "ABSOLUTE key word",
-    name: "absolute",
+    name: "ABSOLUTE",
+    label: "absolute",
     pattern: /ABSOLUTE/
 };
 

@@ -1,8 +1,8 @@
 import { ITokenConfig , createToken } from "chevrotain";
 
 const GROUP: ITokenConfig = {
-    label: "GROUP key word",
-    name: "group",
+    name: "GROUP",
+    label: "group",
     pattern: /GROUP/
 };
 
