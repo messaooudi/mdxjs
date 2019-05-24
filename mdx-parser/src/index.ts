@@ -1,5 +1,5 @@
 import {lexer,tokens} from "mdx-lexer";
-import {MDXParser} from "./MDXParser";
+import {MDXParser} from "./parser/MDXParser";
 
 let inputText = `
 SELECT NON EMPTY date DIMENSION PROPERTIES ON COLUMNS,
